@@ -2,7 +2,7 @@ import logging
 from dotenv import load_dotenv
 import os
 import json
-from database import r
+from database import add_protocol
 import datetime
 from api_functions import get_url_content
 
@@ -28,25 +28,25 @@ def add_protokoll(response):
                 
                 # Datenbankeintrag für das Protokoll erstellen
 
-                redis_id = 'protokoll:' + document_data['id']
-
-                pipe = r.pipeline()
+                fields = {}
 
                 for parameter in parameters:
                     if parameter in document_data:
                         if parameter == 'fundstelle':
                             if 'pdf_url' in document_data[parameter]:
-                                pipe.hset(redis_id, 'pdf_url', document_data[parameter]['pdf_url'])
+                                fields['pdf_url'] = document_data[parameter]['pdf_url']
                         elif parameter == 'datum':
-                            pipe.hset(redis_id, parameter, datetime.datetime.strptime(document_data[parameter], '%Y-%m-%d').strftime('%d.%m.%Y'))
+                            fields['datum'] = datetime.datetime.strptime(document_data[parameter], '%Y-%m-%d').strftime('%d.%m.%Y')
                         elif parameter == 'dokumentnummer':
-                            pipe.hset(redis_id, 'dokumentnummer', document_data['dokumentnummer'])
-                            pipe.hset(redis_id, 'protokollnummer', document_data[parameter].split('/')[1])
+                            fields['dokumentnummer'] = document_data['dokumentnummer']
+                            fields['protokollnummer'] = document_data[parameter].split('/')[1]
+                        elif parameter == 'id':
+                            pass
                         else:
-                            pipe.hset(redis_id, parameter, document_data[parameter])
+                            fields[parameter] = document_data[parameter]
 
                 try:
-                    pipe.execute()
+                    add_protocol(document_data['id'], **fields)
                     return True
                 except Exception as e:
                     logging.exception(e)

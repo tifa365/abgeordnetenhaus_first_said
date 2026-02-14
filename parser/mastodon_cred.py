@@ -52,8 +52,8 @@ def toot_word(word, keys, metadata):
                 try:
                     context_status = MastodonKontextAPI.status_post("#{} tauchte zum ersten Mal im {} am {} auf. Es wurde im Rahmen der Rede von {} ({}) gesagt.\n\nVideo: {}".format(
                             word,
-                            keys[b'titel'].decode('UTF-8'),
-                            keys[b'datum'].decode('UTF-8'),
+                            keys['titel'],
+                            keys['datum'],
                             metadata['speaker'],
                             metadata['party'],
                             metadata['link']),
@@ -87,8 +87,8 @@ def toot_word(word, keys, metadata):
                 try:
                     second_context_status = MastodonKontextAPI.status_post(
                         "Das {} findet sich als PDF unter {}".format(
-                            keys[b'titel'].decode('UTF-8'),
-                            keys[b'pdf_url'].decode('UTF-8')),
+                            keys['titel'],
+                            keys['pdf_url']),
                         in_reply_to_id=context_status["id"])
                 except mastodon.MastodonNotFoundError as m:
                     logging.exception(m)
@@ -126,9 +126,9 @@ def toot_word(word, keys, metadata):
                 try:     
                     context_status = MastodonKontextAPI.status_post("#{} tauchte zum ersten Mal im {} am {} auf. Das Protokoll findet sich unter {}".format(
                         word,
-                        keys[b'titel'].decode('UTF-8'),
-                        keys[b'datum'].decode('UTF-8'),
-                        keys[b'pdf_url'].decode('UTF-8')),
+                        keys['titel'],
+                        keys['datum'],
+                        keys['pdf_url']),
                         in_reply_to_id = toot_status["id"])
                 except mastodon.MastodonNotFoundError as m:
                     logging.exception("Unbekannter Fehler")

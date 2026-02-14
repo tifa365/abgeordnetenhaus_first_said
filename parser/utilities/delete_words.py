@@ -1,14 +1,20 @@
-from database import twittRedis, r
+from database import get_queue_size, get_random_queue_word, delete_from_queue, _get_connection
 
 
-# Entfernt neue Wörter aus der Queue und der Datenbank
+# Entfernt alle Wörter aus der Queue und der Datenbank
 
-while twittRedis.dbsize() > 0:
+while get_queue_size() > 0:
+    entry = get_random_queue_word()
+    if entry is None:
+        break
 
-    key = twittRedis.randomkey().decode('utf-8')
+    word = entry['word']
 
-    wkey = "word:" + key
+    # Aus der Wort-Datenbank entfernen
+    conn = _get_connection()
+    conn.execute("DELETE FROM words WHERE word = ?", (word,))
+    conn.commit()
+    conn.close()
 
-    r.delete(wkey)
-    twittRedis.delete(key)
-
+    # Aus der Queue entfernen
+    delete_from_queue(word)

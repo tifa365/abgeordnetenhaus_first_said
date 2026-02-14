@@ -17,7 +17,7 @@ def does_exist(document_data):
 
 # Wenn Wort schon im Katalog exisitert return False
 def double_check_newness(word, keys):
-    datum = keys[b'datum'].decode('UTF-8')
+    datum = keys['datum']
     
     # Datum entspricht dem Tag vor dem Protokoll
     date_to_check = datetime.datetime.strptime(datum, '%d.%m.%Y') - datetime.timedelta(days=1)
@@ -32,7 +32,7 @@ def double_check_newness(word, keys):
 
 # Checkt zunächst ob Wort gefunden werden kann und sucht dann nach den Infos
 def check_for_infos(word, keys):
-    datum = keys[b'datum'].decode('UTF-8')
+    datum = keys['datum']
 
     try:
         date = datetime.datetime.strptime(datum, '%d.%m.%Y').strftime('%Y-%m-%d')

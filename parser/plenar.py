@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import logging
 from dpi_api import find_new_doc
-from database import r
+from database import get_meta, set_meta
 from text_parse import process_woerter, prune
 from dotenv import load_dotenv
 import xml_processing
@@ -10,10 +10,10 @@ import xml_processing
 load_dotenv()
 
 def get_current_id():
-    return int(r.get('meta:id'))
+    return int(get_meta('current_id'))
 
 def increase_current_id(new_id):
-    r.set('meta:id', int(new_id) + 1)
+    set_meta('current_id', int(new_id) + 1)
     return True
 
 def main():

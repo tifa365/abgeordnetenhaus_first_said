@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-from database import r
 from requests.adapters import HTTPAdapter
 from dpi_api import get_url_content, add_protokoll
 import os
