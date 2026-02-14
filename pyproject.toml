@@ -1,0 +1,10 @@
+[project]
+name = "plenum-first-said"
+version = "0.1.0"
+description = "Mastodon bot posting words appearing for the first time in German Bundestag plenary debates"
+requires-python = ">=3.10"
+dependencies = [
+    "mastodon-py>=2.1.4",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
