@@ -16,19 +16,19 @@ MastodonAPI = Mastodon(access_token = os.environ.get('MASTODON_FIRST_ACCESSTOKEN
 MastodonKontextAPI = Mastodon(access_token = os.environ.get('MASTODON_KONTEXT_ACCESSTOKEN'),  api_base_url="https://mastodon.social")
 
 
-# Mastodon API is a bit wobbly so a fix with while loops 
-def toot_word(word, keys, metadata):
+# Mastodon API is a bit wobbly so a fix with while loops
+def toot_word(word, keys):
 
     # Max tries to get posting trough
     patience = 0
-    
+
     #Posts Word
     while True:
         if patience > 10:
-            logging.info('Maximale Versuche wurde überschritten.')
+            logging.info('Maximale Versuche wurde ueberschritten.')
             return False
         else:
-            try: 
+            try:
                 toot_status = MastodonAPI.toot(word)
             except Exception as e:
                 logging.exception(e)
@@ -39,116 +39,33 @@ def toot_word(word, keys, metadata):
 
     sleep(5)
 
-    # Posts Context
-    # Metada is information from OPTV
-    if metadata:
-        # Max tries reset
-        patience = 0
-        while True:
-            if patience > 10:
-                logging.info('Maximale Versuche wurde überschritten.')
-                return False
-            else:
-                try:
-                    context_status = MastodonKontextAPI.status_post("#{} tauchte zum ersten Mal im {} am {} auf. Es wurde im Rahmen der Rede von {} ({}) gesagt.\n\nVideo: {}".format(
-                            word,
-                            keys['titel'],
-                            keys['datum'],
-                            metadata['speaker'],
-                            metadata['party'],
-                            metadata['link']),
-                            in_reply_to_id = toot_status["id"])
-                except mastodon.MastodonNotFoundError as m:
-                    logging.exception(m)
-                    sleep(60)
-                    patience += 1 
-                    continue
-                except Exception as e:
-                    logging.exception(e)
-                    sleep(60)
-                    patience += 1
-                    continue
-                except:
-                    logging.exception("Unbekannter Fehler")
-                    sleep(60)
-                    patience += 1
-                    continue
-                break
-
-        # Max tries reset
-        patience = 0
-
-        while True:
-
-            if patience > 10:
-                logging.info('Maximale Versuche wurde überschritten.')
-                return False
-            else:
-                try:
-                    second_context_status = MastodonKontextAPI.status_post(
-                        "Das {} findet sich als PDF unter {}".format(
-                            keys['titel'],
-                            keys['pdf_url']),
-                        in_reply_to_id=context_status["id"])
-                except mastodon.MastodonNotFoundError as m:
-                    logging.exception(m)
-                    sleep(60)
-                    patience += 1
-                    continue
-                except AttributeError as e:
-                    logging.exception(e)
-                    sleep(60)
-                    patience += 1
-                    continue
-                except Exception as e:
-                    logging.exception(e)
-                    sleep(60)
-                    patience += 1
-                    continue
-                except:
-                    logging.exception("Unbekannter Fehler")
-                    sleep(60)
-                    patience += 1
-                    continue
-                break
-
-
-
-    else:
-        # Max tries reset
-        patience = 0
-        while True:
-
-            if patience > 10:
-                logging.info('Maximale Versuche wurde überschritten.')
-                return False
-            else:
-                try:     
-                    context_status = MastodonKontextAPI.status_post("#{} tauchte zum ersten Mal im {} am {} auf. Das Protokoll findet sich unter {}".format(
+    # Posts Context mit Berlin-Abgeordnetenhaus-Format
+    patience = 0
+    while True:
+        if patience > 10:
+            logging.info('Maximale Versuche wurde ueberschritten.')
+            return False
+        else:
+            try:
+                context_status = MastodonKontextAPI.status_post(
+                    "#{} tauchte zum ersten Mal im Plenarprotokoll {} am {} im Berliner Abgeordnetenhaus auf.\n\nPDF: {}".format(
                         word,
-                        keys['titel'],
-                        keys['datum'],
-                        keys['pdf_url']),
-                        in_reply_to_id = toot_status["id"])
-                except mastodon.MastodonNotFoundError as m:
-                    logging.exception("Unbekannter Fehler")
-                    sleep(60)
-                    patience += 1 
-                    continue
-                except Exception as e:
-                    logging.exception(e)
-                    sleep(60)
-                    patience += 1
-                    continue
-                except:
-                    logging.exception("Unbekannter Fehler")
-                    sleep(60)
-                    patience += 1
-                    continue
-                break
+                        keys.get('doknr', ''),
+                        keys.get('doc_date', ''),
+                        keys.get('pdf_url', '')),
+                    in_reply_to_id=toot_status["id"])
+            except mastodon.MastodonNotFoundError as m:
+                logging.exception(m)
+                sleep(60)
+                patience += 1
+                continue
+            except Exception as e:
+                logging.exception(e)
+                sleep(60)
+                patience += 1
+                continue
+            break
 
 
     logging.info('Toot wurde erfolgreich gesendet.')
     return toot_status["id"]
-
-

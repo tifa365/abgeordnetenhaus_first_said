@@ -2,21 +2,20 @@ from ctypes import sizeof
 import logging
 import re
 from string import punctuation
-import xml_processing
 import difflib
 from database import add_to_queue, check_newness
 
-# Beginn des Dokumentes finden mit Rechtschreibfehlern. 
+# Beginn des Dokumentes finden mit Rechtschreibfehlern.
 def find_beginn(text):
 
     if text.find('Beginn:') == -1:
         text = text[text.find('Beginn'):]
     else:
         text = text[text.find('Beginn'):]
-    
+
     return text
 
-# Silbentrennung rückgängig machen. 
+# Silbentrennung rueckgaengig machen.
 def dehyphenate(text):
 
     lines = text.split('\n')
@@ -27,7 +26,7 @@ def dehyphenate(text):
                 end = lines[num+1].split()[0]
                 # we remove the - and append the end of the word
                 lines[num] = line[:-1] + end
-                # and remove the end of the word and possibly the 
+                # and remove the end of the word and possibly the
                 # following space from the next line
                 lines[num+1] = lines[num+1][len(end)+1:]
             except Exception as e:
@@ -46,15 +45,15 @@ def pre_split_clean(text):
     text = re.sub(regex_url, '', text) # URL-Filter
 
     # Satzzeichen werden durch Leerzeichen ersetzt
-    punctuation = r"""#"!$%&'()*+,‚.":;<=>?@[\]^_`{|}~“”„’ʼ"""
+    punctuation = r"""#"!$%&'()*+,‚.":;<=>?@[\]^_`{|}~""„'ʼ"""
     for character in punctuation:
         text = text.replace(character, ' ')
     text = text.replace(u'\xa0', u' ') # Sonderzeichen entfernen
-    text = text.replace('  ', ' ') # Doppelze Leerzeichen zu einfachen. 
-   
+    text = text.replace('  ', ' ') # Doppelze Leerzeichen zu einfachen.
+
     return text
 
-# Wörter splitten am Leerzeichen
+# Woerter splitten am Leerzeichen
 def wordsplitter(text):
     words = []
 
@@ -64,10 +63,10 @@ def wordsplitter(text):
     except Exception as e:
         logging.exception(e)
         exit()
-    
+
     return words
 
-# Wenn Aufzählung, werden die nächsten zwei Worte entfernt.
+# Wenn Aufzaehlung, werden die naechsten zwei Worte entfernt.
 def de_enumaration(words):
 
     clean_words = []
@@ -77,43 +76,41 @@ def de_enumaration(words):
         if skip > 0:
             skip -= 1
             continue
-        
+
         if word.endswith('-') or word.endswith('–'):
             skip = 2
         else:
             clean_words.append(word)
-    
+
     return clean_words
 
 
-def wordsfilter(words, id):  
+def wordsfilter(words, document_id):
     new_words = []
-    
+
     # Wort hat nur Buchstaben
     regchar = re.compile('([A-Z])|([a-z])\w+')
 
     for word in words:
         if regchar.search(word):
 
-            # Enfernen von sonst nicht filterbaren Aufzählungen
+            # Enfernen von sonst nicht filterbaren Aufzaehlungen
             if word.endswith('-,') or word.endswith('-') or word.endswith('–') or word.startswith('-'):
-                continue     
+                continue
 
-            if check_word(word, id):
+            if check_word(word, document_id):
                 new_words.append(word)
-        
+
     return new_words
 
-# Hauptfunktion des Moduls für die Aufbereitung und Trennung der Wörter
-def process_woerter (xml_file, id):
+# Hauptfunktion des Moduls fuer die Aufbereitung und Trennung der Woerter
+def process_woerter(text, document_id):
 
-    raw_text = xml_processing.getText(xml_file)
-
-    if not raw_text:
+    if not text:
         return False
-    
+
     # Verarbeitung des String
-    text = find_beginn(raw_text)
+    text = find_beginn(text)
     text = pre_split_clean(text)
     text = dehyphenate(text)
 
@@ -121,7 +118,7 @@ def process_woerter (xml_file, id):
     words = wordsplitter(text)
     words = de_enumaration(words)
 
-    return(wordsfilter(words, id))
+    return(wordsfilter(words, document_id))
 
 
 # Check ob es ein valides Wort ist
@@ -129,7 +126,7 @@ def ok_word(word):
 
     # Wort hat gleiche Zeichen mehrmals hintereinander
     regmul = re.compile('([A-z])\1{4,}')
-    # Wort hat nicht nur am Anfag Großbuchstaben
+    # Wort hat nicht nur am Anfag Grossbuchstaben
     regsmall = re.compile('[A-z]{1}[a-z]*[A-Z]+[a-z]*')
 
     if regmul.search(word) or regsmall.search(word):
@@ -137,29 +134,29 @@ def ok_word(word):
 
     return (not any(i.isdigit() or i in '(.@/#_§ ' for i in word))
 
-# Normalisiert das Wort, überprüft ob es schon im Speicher ist und fügt es der Queue hinzu
-def check_word(word, id):
+# Normalisiert das Wort, ueberprueft ob es schon im Speicher ist und fuegt es der Queue hinzu
+def check_word(word, document_id):
 
     if ok_word(word):
-        if check_newness(word, id):
+        if check_newness(word, document_id):
             return True
         else:
             return False
     else:
         return False
 
-# Aussortieren von Wörtern für Postings
-def prune(new_words, id):
-    
+# Aussortieren von Woertern fuer Postings
+def prune(new_words, document_id):
+
     pruned_words = find_matches(new_words)
 
-    # Entfernt Kompositionen, die eine Silbentrennung in der Mitte der Zeile sein könnten.
+    # Entfernt Kompositionen, die eine Silbentrennung in der Mitte der Zeile sein koennten.
     for word in pruned_words:
         regcomp = re.compile('[a-z]+[-–][a-z]+')
         if regcomp.search(word) or len(word) < 5:
             continue
         else:
-            add_to_queue(word, id)
+            add_to_queue(word, document_id)
 
 
 
@@ -167,7 +164,7 @@ def prune(new_words, id):
 def find_matches(new_words):
     for word in new_words:
         matches = difflib.get_close_matches(word, new_words, n=4)
-        
+
         if matches and len(matches) > 1:
             for match in matches:
                 if match == word:
@@ -176,12 +173,3 @@ def find_matches(new_words):
             find_matches(new_words)
             break
     return new_words
-
-if __name__ == "__main__":
-    file = '#'
-    root = xml_processing.parse(file)
-    text = xml_processing.getText(root)
-    text = find_beginn(text)
-    text = dehyphenate(text)
-    text = pre_split_clean(text)
-    words = wordsplitter(text)

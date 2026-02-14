@@ -2,6 +2,7 @@ import sqlite3
 import logging
 import os
 import time
+from datetime import datetime
 
 DB_PATH = os.environ.get('SQLITE_DB_PATH', os.path.join(os.path.dirname(__file__), 'plenum_first_said.db'))
 
@@ -15,19 +16,43 @@ def _get_connection():
 def init_db():
     conn = _get_connection()
     conn.executescript("""
-        CREATE TABLE IF NOT EXISTS words (
-            word        TEXT PRIMARY KEY,
-            protocol_id INTEGER NOT NULL
+        CREATE TABLE IF NOT EXISTS documents (
+            id              INTEGER PRIMARY KEY,
+            wp              INTEGER NOT NULL,
+            doknr           TEXT NOT NULL,
+            doc_date        TEXT NOT NULL,
+            titel           TEXT,
+            pdf_url         TEXT NOT NULL,
+            pdf_sha256      TEXT,
+            extract_status  TEXT NOT NULL DEFAULT 'pending',
+            extract_method  TEXT,
+            extracted_at    TEXT,
+            error           TEXT,
+            UNIQUE(doknr)
         );
 
-        CREATE TABLE IF NOT EXISTS protocols (
-            id               INTEGER PRIMARY KEY,
-            dokumentnummer   TEXT,
-            wahlperiode      INTEGER,
-            protokollnummer  INTEGER,
-            datum            TEXT,
-            titel            TEXT,
-            pdf_url          TEXT
+        CREATE TABLE IF NOT EXISTS pages (
+            id          INTEGER PRIMARY KEY,
+            document_id INTEGER NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+            page_no     INTEGER NOT NULL,
+            text        TEXT NOT NULL,
+            char_count  INTEGER,
+            UNIQUE(document_id, page_no)
+        );
+
+        CREATE TABLE IF NOT EXISTS words (
+            word        TEXT PRIMARY KEY,
+            document_id INTEGER NOT NULL REFERENCES documents(id)
+        );
+
+        CREATE TABLE IF NOT EXISTS queue (
+            word        TEXT PRIMARY KEY,
+            document_id INTEGER NOT NULL REFERENCES documents(id)
+        );
+
+        CREATE TABLE IF NOT EXISTS archive (
+            word        TEXT PRIMARY KEY,
+            mastodon_id TEXT
         );
 
         CREATE TABLE IF NOT EXISTS meta (
@@ -35,20 +60,36 @@ def init_db():
             value      TEXT,
             expires_at REAL
         );
-
-        CREATE TABLE IF NOT EXISTS queue (
-            word        TEXT PRIMARY KEY,
-            protocol_id INTEGER NOT NULL
-        );
-
-        CREATE TABLE IF NOT EXISTS archive (
-            word        TEXT PRIMARY KEY,
-            mastodon_id TEXT
-        );
     """)
+
+    # FTS5 und Trigger separat (CREATE VIRTUAL TABLE nicht in executescript mit IF NOT EXISTS)
+    cur = conn.cursor()
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='pages_fts'")
+    if cur.fetchone() is None:
+        conn.execute("""
+            CREATE VIRTUAL TABLE pages_fts
+            USING fts5(text, content=pages, content_rowid=id, tokenize='unicode61')
+        """)
+
+    # Trigger fuer FTS-Synchronisation
+    for trigger_sql in [
+        """CREATE TRIGGER IF NOT EXISTS pages_ai AFTER INSERT ON pages BEGIN
+            INSERT INTO pages_fts(rowid, text) VALUES (new.id, new.text);
+        END""",
+        """CREATE TRIGGER IF NOT EXISTS pages_ad AFTER DELETE ON pages BEGIN
+            INSERT INTO pages_fts(pages_fts, rowid, text) VALUES ('delete', old.id, old.text);
+        END""",
+        """CREATE TRIGGER IF NOT EXISTS pages_au AFTER UPDATE ON pages BEGIN
+            INSERT INTO pages_fts(pages_fts, rowid, text) VALUES ('delete', old.id, old.text);
+            INSERT INTO pages_fts(rowid, text) VALUES (new.id, new.text);
+        END""",
+    ]:
+        conn.execute(trigger_sql)
+
+    conn.commit()
     conn.close()
 
-# Ensure tables exist on import
+# Tabellen beim Import erstellen
 init_db()
 
 
@@ -79,33 +120,68 @@ def set_meta(key, value, ex=None):
     conn.close()
 
 
-# --- protocols ---
+# --- documents ---
 
-def add_protocol(protocol_id, **fields):
+def add_document(doknr, wp, doc_date, titel, pdf_url):
     conn = _get_connection()
-    conn.execute(
-        """INSERT OR REPLACE INTO protocols (id, dokumentnummer, wahlperiode, protokollnummer, datum, titel, pdf_url)
-           VALUES (?, ?, ?, ?, ?, ?, ?)""",
-        (
-            protocol_id,
-            fields.get('dokumentnummer'),
-            fields.get('wahlperiode'),
-            fields.get('protokollnummer'),
-            fields.get('datum'),
-            fields.get('titel'),
-            fields.get('pdf_url'),
-        )
+    cursor = conn.execute(
+        """INSERT OR IGNORE INTO documents (doknr, wp, doc_date, titel, pdf_url)
+           VALUES (?, ?, ?, ?, ?)""",
+        (doknr, wp, doc_date, titel, pdf_url)
     )
     conn.commit()
+    doc_id = cursor.lastrowid
+    if doc_id == 0:
+        row = conn.execute("SELECT id FROM documents WHERE doknr = ?", (doknr,)).fetchone()
+        doc_id = row['id']
     conn.close()
+    return doc_id
 
-def get_protocol(protocol_id):
+def document_exists(doknr):
     conn = _get_connection()
-    row = conn.execute("SELECT * FROM protocols WHERE id = ?", (protocol_id,)).fetchone()
+    row = conn.execute("SELECT 1 FROM documents WHERE doknr = ?", (doknr,)).fetchone()
+    conn.close()
+    return row is not None
+
+def get_document(document_id):
+    conn = _get_connection()
+    row = conn.execute("SELECT * FROM documents WHERE id = ?", (document_id,)).fetchone()
     conn.close()
     if row is None:
         return {}
     return dict(row)
+
+def get_document_by_doknr(doknr):
+    conn = _get_connection()
+    row = conn.execute("SELECT * FROM documents WHERE doknr = ?", (doknr,)).fetchone()
+    conn.close()
+    if row is None:
+        return {}
+    return dict(row)
+
+def update_extract_status(document_id, status, method=None, error=None):
+    conn = _get_connection()
+    conn.execute(
+        """UPDATE documents
+           SET extract_status = ?, extract_method = ?, extracted_at = ?, error = ?
+           WHERE id = ?""",
+        (status, method, datetime.now().isoformat() if status != 'pending' else None, error, document_id)
+    )
+    conn.commit()
+    conn.close()
+
+
+# --- pages ---
+
+def add_page(document_id, page_no, text):
+    char_count = len(text)
+    conn = _get_connection()
+    conn.execute(
+        "INSERT OR REPLACE INTO pages (document_id, page_no, text, char_count) VALUES (?, ?, ?, ?)",
+        (document_id, page_no, text, char_count)
+    )
+    conn.commit()
+    conn.close()
 
 
 # --- words ---
@@ -155,29 +231,29 @@ def similiar_word(word):
     return row is not None
 
 
-def check_newness(word, id):
+def check_newness(word, document_id):
     conn = _get_connection()
-    row = conn.execute("SELECT protocol_id FROM words WHERE word = ?", (word,)).fetchone()
+    row = conn.execute("SELECT document_id FROM words WHERE word = ?", (word,)).fetchone()
     conn.close()
 
     if row is not None:
-        check_age(word, id)
+        check_age(word, document_id)
         return False
 
     if similiar_word(word):
-        add_to_database(word, id)
+        add_to_database(word, document_id)
         return False
     else:
-        add_to_database(word, id)
+        add_to_database(word, document_id)
         return True
 
 
-def add_to_database(word, id):
+def add_to_database(word, document_id):
     try:
         conn = _get_connection()
         conn.execute(
-            "INSERT OR REPLACE INTO words (word, protocol_id) VALUES (?, ?)",
-            (word, id)
+            "INSERT OR REPLACE INTO words (word, document_id) VALUES (?, ?)",
+            (word, document_id)
         )
         conn.commit()
         conn.close()
@@ -187,30 +263,28 @@ def add_to_database(word, id):
         raise
 
 
-def check_age(word, id):
+def check_age(word, document_id):
     conn = _get_connection()
-    row = conn.execute("SELECT protocol_id FROM words WHERE word = ?", (word,)).fetchone()
+    row = conn.execute("SELECT document_id FROM words WHERE word = ?", (word,)).fetchone()
     if row is None:
         conn.close()
         return False
 
-    aktuelle_id = row['protocol_id']
-    if str(id) == str(aktuelle_id):
+    aktuelle_doc_id = row['document_id']
+    if document_id == aktuelle_doc_id:
         conn.close()
         return False
 
     try:
-        aktuell_p = get_protocol(aktuelle_id)
-        aktuelle_periode = int(aktuell_p['wahlperiode'])
-        aktuelle_protokollnummer = int(aktuell_p['protokollnummer'])
+        aktuell_doc = get_document(aktuelle_doc_id)
+        neu_doc = get_document(document_id)
 
-        neu_p = get_protocol(id)
-        neue_periode = int(neu_p['wahlperiode'])
-        neue_protokollnummer = int(neu_p['protokollnummer'])
-
-        if (aktuelle_periode == neue_periode and aktuelle_protokollnummer > neue_protokollnummer) or (aktuelle_periode > neue_periode):
-            conn.execute("UPDATE words SET protocol_id = ? WHERE word = ?", (id, word))
-            conn.commit()
+        # ISO-Datumsvergleich: frueheres Datum gewinnt
+        if aktuell_doc.get('doc_date', '') > neu_doc.get('doc_date', ''):
+            conn_update = _get_connection()
+            conn_update.execute("UPDATE words SET document_id = ? WHERE word = ?", (document_id, word))
+            conn_update.commit()
+            conn_update.close()
             conn.close()
             return True
         else:
@@ -224,14 +298,14 @@ def check_age(word, id):
 
 # --- queue ---
 
-def add_to_queue(word, id):
+def add_to_queue(word, document_id):
     if word[0].islower():
         return False
 
     conn = _get_connection()
     conn.execute(
-        "INSERT OR REPLACE INTO queue (word, protocol_id) VALUES (?, ?)",
-        (word, id)
+        "INSERT OR REPLACE INTO queue (word, document_id) VALUES (?, ?)",
+        (word, document_id)
     )
     conn.commit()
     conn.close()
@@ -249,11 +323,11 @@ def delete_from_queue(word):
 
 def get_random_queue_word():
     conn = _get_connection()
-    row = conn.execute("SELECT word, protocol_id FROM queue ORDER BY RANDOM() LIMIT 1").fetchone()
+    row = conn.execute("SELECT word, document_id FROM queue ORDER BY RANDOM() LIMIT 1").fetchone()
     conn.close()
     if row is None:
         return None
-    return {'word': row['word'], 'id': row['protocol_id']}
+    return {'word': row['word'], 'document_id': row['document_id']}
 
 
 def get_queue_size():

@@ -1,62 +1,66 @@
-
 # -*- coding: utf-8 -*-
 import logging
-from dpi_api import find_new_doc
-from database import get_meta, set_meta
-from text_parse import process_woerter, prune
+import os
 from dotenv import load_dotenv
-import xml_processing
+from pardok import find_new_documents
+from pdf_extract import process_document
+from database import add_document
+from text_parse import process_woerter, prune
 
 load_dotenv()
 
-def get_current_id():
-    return int(get_meta('current_id'))
 
-def increase_current_id(new_id):
-    set_meta('current_id', int(new_id) + 1)
-    return True
+def get_wahlperioden():
+    """Wahlperioden aus Umgebungsvariable oder Default (11-19)."""
+    env_val = os.environ.get('WAHLPERIODEN')
+    if env_val:
+        return [int(x.strip()) for x in env_val.split(',')]
+    return list(range(11, 20))
+
 
 def main():
+    wahlperioden = get_wahlperioden()
+    logging.info(f'Starte Suche fuer Wahlperioden: {wahlperioden}')
 
-    old_id = get_current_id()
+    for wp in wahlperioden:
+        new_docs = find_new_documents(wp)
 
-    logging.info('Starte suche nach Dokument mit ID ' + str(old_id))
+        for doc in new_docs:
+            logging.info(f"Neues Protokoll gefunden: {doc['doknr']} vom {doc['doc_date']}")
 
-    new_id = find_new_doc(old_id)
+            doc_id = add_document(
+                doknr=doc['doknr'],
+                wp=doc['wp'],
+                doc_date=doc['doc_date'],
+                titel=doc['titel'],
+                pdf_url=doc['pdf_url'],
+            )
 
-    if new_id:
-        
-        xml_file = xml_processing.get(new_id)
+            full_text = process_document(doc_id, doc['pdf_url'], doc['doknr'])
 
-        if xml_file:
-            logging.info('Sitzung mit der ID ' + str(new_id) +  ' gefunden')
-            new_words = process_woerter(xml_file, new_id)
-            if len(new_words) == 0:
-                logging.debug('Es wurde kein neues Wort hinzugefügt.')
-                exit   
-            else:
-                prune(new_words, new_id)
-                increase_current_id(new_id)
-             
-            logging.info("Es wurden " + str(len(new_words)) + " neue Wörter hinzugefügt.")
+            if not full_text:
+                logging.warning(f"Kein Text fuer {doc['doknr']} extrahiert.")
+                continue
 
-        else:
-            logging.debug('Fehler im XML File.')
+            new_words = process_woerter(full_text, doc_id)
 
-    else:
-        logging.info('Keine neue Sitzung gefunden.')
-    
-    exit
+            if not new_words:
+                logging.debug(f"Keine neuen Woerter in {doc['doknr']}.")
+                continue
+
+            prune(new_words, doc_id)
+            logging.info(f"{len(new_words)} neue Woerter in {doc['doknr']}.")
+
+    logging.info('Suche abgeschlossen.')
 
 
 if __name__ == "__main__":
+    log_file = os.path.join(os.path.dirname(__file__), 'plenarlog.log')
     logging.basicConfig(
-        filename='bundestagbot/parser/plenarlog.log',
+        filename=log_file,
         format='%(asctime)s %(levelname)-8s %(message)s',
         level=logging.INFO,
         datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('Starte Plenar-Parser')
     main()
     logging.info('Beende Plenar-Parser')
-
- 

@@ -1,7 +1,6 @@
 import logging
-from database import get_meta, set_meta, get_protocol, get_random_queue_word, move_to_archive, delete_from_queue
+from database import get_meta, set_meta, get_document, get_random_queue_word, move_to_archive, delete_from_queue
 from mastodon_cred import toot_word
-from optv_api import double_check_newness, check_for_infos
 import random
 from dotenv import load_dotenv
 
@@ -9,7 +8,6 @@ load_dotenv()
 
 
 # Organisiert das Senden von Posts
-# Wenn irgendeine Art von Fehler beim Senden passiert, wird das Wort entfernt.
 def post_from_queue():
 
     poststop = get_meta('poststop')
@@ -20,24 +18,19 @@ def post_from_queue():
         entry = get_random_queue_word()
 
         if entry is None:
-            logging.info('Keine Wörter in der Queue.')
+            logging.info('Keine Woerter in der Queue.')
             return False
 
         word = entry['word']
-        id = str(entry['id'])
-        logging.info("Wort '" + word + "' wird veröffentlicht.")
+        document_id = entry['document_id']
+        logging.info("Wort '" + word + "' wird veroeffentlicht.")
 
-        protokoll_keys = get_protocol(id)
+        doc_keys = get_document(document_id)
 
-        if double_check_newness(word, protokoll_keys):
-            if send_word(word, protokoll_keys):
-                return True
-            else:
-                logging.debug('Wort konnte nicht gesendet werden.')
-                delete_from_queue(word)
-                return False
+        if send_word(word, doc_keys):
+            return True
         else:
-            logging.info('Wort wurde bei OPTV vor dem Protokolldatum gefunden.')
+            logging.debug('Wort konnte nicht gesendet werden.')
             delete_from_queue(word)
             return False
 
@@ -47,8 +40,7 @@ def post_from_queue():
 
 def send_word(word, keys):
 
-    metadata = check_for_infos(word, keys)
-    mastodon_id = toot_word(word, keys, metadata)
+    mastodon_id = toot_word(word, keys)
 
     if not mastodon_id:
         logging.debug('Es wurde keine Mastodon ID gefunden.')
