@@ -1,6 +1,5 @@
 import logging
 from database import get_meta, set_meta, get_protocol, get_random_queue_word, move_to_archive, delete_from_queue
-# from twitter_creds import tweet_word
 from mastodon_cred import toot_word
 from optv_api import double_check_newness, check_for_infos
 import random
@@ -9,15 +8,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# Organisiert das Senden von Tweets
+# Organisiert das Senden von Posts
 # Wenn irgendeine Art von Fehler beim Senden passiert, wird das Wort entfernt.
 def post_from_queue():
 
-    tweetstop = get_meta('tweetstop')
+    poststop = get_meta('poststop')
 
-    if tweetstop is None:
-        set_tweet_stopper()
-        logging.info('Tweet Skript wird gestartet')
+    if poststop is None:
+        set_post_stopper()
+        logging.info('Post Skript wird gestartet')
         entry = get_random_queue_word()
 
         if entry is None:
@@ -70,11 +69,11 @@ def cleanup_db(word, mastodon_id):
         logging.exception(e)
         return False
 
-def set_tweet_stopper():
+def set_post_stopper():
 
     expireTime = 60*round(random.randrange(55,120))
-    set_meta('tweetstop', 1, ex=expireTime)
-    logging.info('Tweet-Stopper wurde gesetzt auf ' + str(expireTime/60) + ' Minuten.')
+    set_meta('poststop', 1, ex=expireTime)
+    logging.info('Post-Stopper wurde gesetzt auf ' + str(expireTime/60) + ' Minuten.')
 
     return True
 

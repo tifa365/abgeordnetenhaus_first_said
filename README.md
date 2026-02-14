@@ -3,7 +3,7 @@
 
 Plenum First Said ist ein Bot, der neue Wörter postet, die zum ersten Mal während einer Bundestagsdebatte gesagt wurden. Es wird in keiner Weise Korrektheit garantiert. 
 
-Das Projekt wurde durch den Twitter-Account [@NYT_first_said](https://x.com/NYT_first_said) von Max Bittker inspiriert und dessen [Code](https://github.com/MaxBittker/nyt-first-said) als Startpunkt genutzt, jedoch zum großen Teil verändert. 
+Das Projekt wurde durch [@NYT_first_said](https://github.com/MaxBittker/nyt-first-said) von Max Bittker inspiriert und dessen [Code](https://github.com/MaxBittker/nyt-first-said) als Startpunkt genutzt, jedoch zum großen Teil verändert.
 
 ## Funktionsweise
 
@@ -13,9 +13,9 @@ Unregelmäßigkeiten entstehen z.B. durch Silbentrennungen, die nicht gut von Wo
 
 ## Architektur
 
-`plenar.py` ist die Hauptfunktion, die den Rest orchestriert. Sie wird stündlich aufgerufen. `database.py` erlaubt eine Verbindung zur lokalen Redis Datenbank. 
+`plenar.py` ist die Hauptfunktion, die den Rest orchestriert. Sie wird stündlich aufgerufen. `database.py` erlaubt eine Verbindung zur lokalen SQLite Datenbank.
 
-`post_queue.py`, `twitter_creds.py` und `mastodon_creds.py` packt neue Wörter in eine Warteliste und postet diese in unterschiedlichen Zeitintervallen. Twitter wurde mittlerweile auskommentiert, weil der Bot nichts zu diesem Höllenort beitragen muss.
+`post_queue.py` und `mastodon_cred.py` packt neue Wörter in eine Warteliste und postet diese in unterschiedlichen Zeitintervallen auf Mastodon.
 
 `dpi_api.py` verbindet den Bot mit den Servern des Bundestags und sucht nach neuen Protokollen über weiterlaufende IDs. `optv_api.py` ist eine Einbindung der Open Parliament TV API zur Zweitprüfung, ob das Wort wirklich noch nicht existiert und gibt dem Kontext-Bot noch mehr Kontext. `api_functions.py` hilft bei der Abfrage. 
 
@@ -43,10 +43,10 @@ Hierbei gibt es einige Limitierungen. Da die Protokolle weiterhin nicht vollkomm
 [Webseite zum Projekt](https://openparliament.tv/)  
 [GitHub](https://github.com/OpenParliamentTV)  
 
-## Mastodon und Twitter
-Für den Zugang zu Twitter benutze ich die Library [Tweepy](https://www.tweepy.org/) und für Mastodon benutze ich [Mastodon.py](https://github.com/halcy/Mastodon.py). Dort gibt es auch eine Dokumentation, wie man die Keys richtig erstellt. 
+## Mastodon
+Für Mastodon benutze ich [Mastodon.py](https://github.com/halcy/Mastodon.py). Dort gibt es auch eine Dokumentation, wie man die Keys richtig erstellt.
 
-Die Mastodon Account findet man je unter <a rel="me" href="https://mastodon.social/@BT_First_Said">@BT_First_Said@mastodon.social</a> und <a rel="me" href="https://mastodon.social/@FSBT_Kontext">@FSBT_Kontext@mastodon.social</a>.
+Die Mastodon Accounts findet man je unter <a rel="me" href="https://mastodon.social/@BT_First_Said">@BT_First_Said@mastodon.social</a> und <a rel="me" href="https://mastodon.social/@FSBT_Kontext">@FSBT_Kontext@mastodon.social</a>.
 
 
 ## Was bedeutet "neues Wort"?

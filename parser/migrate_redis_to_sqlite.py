@@ -78,16 +78,16 @@ def migrate():
         )
         print(f"Migrated meta:id = {meta_id.decode('utf-8')} as 'current_id'")
 
-    # --- Migrate meta:tweetstop with TTL (db=1) ---
-    tweetstop = postRedis.get('meta:tweetstop')
-    if tweetstop is not None:
+    # --- Migrate meta:tweetstop → poststop with TTL (db=1) ---
+    poststop = postRedis.get('meta:tweetstop')
+    if poststop is not None:
         ttl = postRedis.ttl('meta:tweetstop')
         expires_at = time.time() + ttl if ttl > 0 else None
         conn.execute(
             "INSERT OR REPLACE INTO meta (key, value, expires_at) VALUES (?, ?, ?)",
-            ('tweetstop', tweetstop.decode('utf-8'), expires_at)
+            ('poststop', poststop.decode('utf-8'), expires_at)
         )
-        print(f"Migrated meta:tweetstop (TTL={ttl}s)")
+        print(f"Migrated meta:tweetstop as 'poststop' (TTL={ttl}s)")
 
     conn.commit()
 
