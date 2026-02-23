@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 from pardok import find_new_documents
 from pdf_extract import process_document
-from database import add_document
+from database import add_document, flush
 from text_parse import process_woerter, prune
 
 load_dotenv()
@@ -49,6 +49,7 @@ def main():
                 continue
 
             prune(new_words, doc_id)
+            flush()
             logging.info(f"{len(new_words)} neue Woerter in {doc['doknr']}.")
 
     logging.info('Suche abgeschlossen.')

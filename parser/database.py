@@ -6,15 +6,30 @@ from datetime import datetime
 
 DB_PATH = os.environ.get('SQLITE_DB_PATH', os.path.join(os.path.dirname(__file__), 'plenum_first_said.db'))
 
+# Singleton-Connection: einmal oeffnen, wiederverwenden
+_conn = None
+
 def _get_connection():
+    global _conn
+    if _conn is None:
+        _conn = sqlite3.connect(DB_PATH)
+        _conn.execute("PRAGMA journal_mode=WAL")
+        _conn.execute("PRAGMA foreign_keys=ON")
+        _conn.execute("PRAGMA synchronous=NORMAL")
+        _conn.row_factory = sqlite3.Row
+    return _conn
+
+def flush():
+    """Ausstehende Aenderungen committen."""
+    conn = _get_connection()
+    conn.commit()
+
+def init_db():
+    # Eigene Connection fuer Schema-Setup (executescript schliesst Transaktionen)
     conn = sqlite3.connect(DB_PATH)
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA foreign_keys=ON")
     conn.row_factory = sqlite3.Row
-    return conn
-
-def init_db():
-    conn = _get_connection()
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS documents (
             id              INTEGER PRIMARY KEY,
@@ -42,11 +57,15 @@ def init_db():
 
         CREATE TABLE IF NOT EXISTS words (
             word        TEXT PRIMARY KEY,
+            group_key   TEXT NOT NULL,
             document_id INTEGER NOT NULL REFERENCES documents(id)
         );
 
+        CREATE INDEX IF NOT EXISTS idx_words_group_key ON words(group_key);
+
         CREATE TABLE IF NOT EXISTS queue (
             word        TEXT PRIMARY KEY,
+            group_key   TEXT NOT NULL,
             document_id INTEGER NOT NULL REFERENCES documents(id)
         );
 
@@ -86,6 +105,15 @@ def init_db():
     ]:
         conn.execute(trigger_sql)
 
+    # Migration: group_key Spalte hinzufuegen falls noch nicht vorhanden
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(words)").fetchall()}
+    if 'group_key' not in cols:
+        conn.execute("ALTER TABLE words ADD COLUMN group_key TEXT NOT NULL DEFAULT ''")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_words_group_key ON words(group_key)")
+    cols_q = {row[1] for row in conn.execute("PRAGMA table_info(queue)").fetchall()}
+    if 'group_key' not in cols_q:
+        conn.execute("ALTER TABLE queue ADD COLUMN group_key TEXT NOT NULL DEFAULT ''")
+
     conn.commit()
     conn.close()
 
@@ -99,14 +127,11 @@ def get_meta(key):
     conn = _get_connection()
     row = conn.execute("SELECT value, expires_at FROM meta WHERE key = ?", (key,)).fetchone()
     if row is None:
-        conn.close()
         return None
     if row['expires_at'] is not None and time.time() > row['expires_at']:
         conn.execute("DELETE FROM meta WHERE key = ?", (key,))
         conn.commit()
-        conn.close()
         return None
-    conn.close()
     return row['value']
 
 def set_meta(key, value, ex=None):
@@ -117,7 +142,6 @@ def set_meta(key, value, ex=None):
         (key, str(value), expires_at)
     )
     conn.commit()
-    conn.close()
 
 
 # --- documents ---
@@ -134,19 +158,16 @@ def add_document(doknr, wp, doc_date, titel, pdf_url):
     if doc_id == 0:
         row = conn.execute("SELECT id FROM documents WHERE doknr = ?", (doknr,)).fetchone()
         doc_id = row['id']
-    conn.close()
     return doc_id
 
 def document_exists(doknr):
     conn = _get_connection()
     row = conn.execute("SELECT 1 FROM documents WHERE doknr = ?", (doknr,)).fetchone()
-    conn.close()
     return row is not None
 
 def get_document(document_id):
     conn = _get_connection()
     row = conn.execute("SELECT * FROM documents WHERE id = ?", (document_id,)).fetchone()
-    conn.close()
     if row is None:
         return {}
     return dict(row)
@@ -154,7 +175,6 @@ def get_document(document_id):
 def get_document_by_doknr(doknr):
     conn = _get_connection()
     row = conn.execute("SELECT * FROM documents WHERE doknr = ?", (doknr,)).fetchone()
-    conn.close()
     if row is None:
         return {}
     return dict(row)
@@ -168,7 +188,6 @@ def update_extract_status(document_id, status, method=None, error=None):
         (status, method, datetime.now().isoformat() if status != 'pending' else None, error, document_id)
     )
     conn.commit()
-    conn.close()
 
 
 # --- pages ---
@@ -181,82 +200,43 @@ def add_page(document_id, page_no, text):
         (document_id, page_no, text, char_count)
     )
     conn.commit()
-    conn.close()
 
 
 # --- words ---
 
-def similiar_word(word):
-    variants = [
-        word.lower(),
-        word.capitalize(),
-        word + 'er',
-        word + 'n',
-        word + 'en',
-        word + 's',
-        word + 'es',
-        word + 'e',
-    ]
-
-    if word.endswith(('s', 'n', 'e')):
-        variants.append(word[:-1])
-
-    if word.endswith(('\u2019s', 'in', '\u2019n', 'er', 'en', 'es', 'se')):
-        variants.append(word[:-2])
-
-    if word.endswith('ern'):
-        variants.append(word[:-3])
-
-    if word.endswith('m'):
-        variants.append(word[:-1] + 'n')
-
-    if word.endswith('n'):
-        variants.append(word[:-1] + 'm')
-
-    if word.endswith('en'):
-        variants.append(word[:-2] + 'er')
-        variants.append(word[:-2] + 'e')
-        variants.append(word[:-2] + 't')
-
-    if word.endswith('innen'):
-        variants.append(word[:-5])
-
-    placeholders = ','.join('?' for _ in variants)
+def similiar_word(group_key):
     conn = _get_connection()
     row = conn.execute(
-        f"SELECT 1 FROM words WHERE word IN ({placeholders}) LIMIT 1",
-        variants
+        "SELECT 1 FROM words WHERE group_key = ? LIMIT 1",
+        (group_key,)
     ).fetchone()
-    conn.close()
     return row is not None
 
 
-def check_newness(word, document_id):
+def check_newness(word, group_key, document_id):
     conn = _get_connection()
     row = conn.execute("SELECT document_id FROM words WHERE word = ?", (word,)).fetchone()
-    conn.close()
 
     if row is not None:
         check_age(word, document_id)
         return False
 
-    if similiar_word(word):
-        add_to_database(word, document_id)
+    if similiar_word(group_key):
+        add_to_database(word, group_key, document_id)
         return False
     else:
-        add_to_database(word, document_id)
+        add_to_database(word, group_key, document_id)
         return True
 
 
-def add_to_database(word, document_id):
+def add_to_database(word, group_key, document_id):
     try:
         conn = _get_connection()
         conn.execute(
-            "INSERT OR REPLACE INTO words (word, document_id) VALUES (?, ?)",
-            (word, document_id)
+            "INSERT OR REPLACE INTO words (word, group_key, document_id) VALUES (?, ?, ?)",
+            (word, group_key, document_id)
         )
-        conn.commit()
-        conn.close()
+        # kein commit — wird per flush() am Ende des Dokuments gemacht
         return True
     except Exception as e:
         logging.exception(e)
@@ -267,12 +247,10 @@ def check_age(word, document_id):
     conn = _get_connection()
     row = conn.execute("SELECT document_id FROM words WHERE word = ?", (word,)).fetchone()
     if row is None:
-        conn.close()
         return False
 
     aktuelle_doc_id = row['document_id']
     if document_id == aktuelle_doc_id:
-        conn.close()
         return False
 
     try:
@@ -281,34 +259,28 @@ def check_age(word, document_id):
 
         # ISO-Datumsvergleich: frueheres Datum gewinnt
         if aktuell_doc.get('doc_date', '') > neu_doc.get('doc_date', ''):
-            conn_update = _get_connection()
-            conn_update.execute("UPDATE words SET document_id = ? WHERE word = ?", (document_id, word))
-            conn_update.commit()
-            conn_update.close()
-            conn.close()
+            conn.execute("UPDATE words SET document_id = ? WHERE word = ?", (document_id, word))
+            # kein commit — wird per flush() gemacht
             return True
         else:
-            conn.close()
             return False
     except Exception as e:
-        conn.close()
         logging.exception(e)
         raise
 
 
 # --- queue ---
 
-def add_to_queue(word, document_id):
+def add_to_queue(word, group_key, document_id):
     if word[0].islower():
         return False
 
     conn = _get_connection()
     conn.execute(
-        "INSERT OR REPLACE INTO queue (word, document_id) VALUES (?, ?)",
-        (word, document_id)
+        "INSERT OR REPLACE INTO queue (word, group_key, document_id) VALUES (?, ?, ?)",
+        (word, group_key, document_id)
     )
-    conn.commit()
-    conn.close()
+    # kein commit — wird per flush() gemacht
     return True
 
 
@@ -317,23 +289,20 @@ def delete_from_queue(word):
     cursor = conn.execute("DELETE FROM queue WHERE word = ?", (word,))
     conn.commit()
     deleted = cursor.rowcount > 0
-    conn.close()
     return deleted
 
 
 def get_random_queue_word():
     conn = _get_connection()
-    row = conn.execute("SELECT word, document_id FROM queue ORDER BY RANDOM() LIMIT 1").fetchone()
-    conn.close()
+    row = conn.execute("SELECT word, group_key, document_id FROM queue ORDER BY RANDOM() LIMIT 1").fetchone()
     if row is None:
         return None
-    return {'word': row['word'], 'document_id': row['document_id']}
+    return {'word': row['word'], 'group_key': row['group_key'], 'document_id': row['document_id']}
 
 
 def get_queue_size():
     conn = _get_connection()
     row = conn.execute("SELECT COUNT(*) as cnt FROM queue").fetchone()
-    conn.close()
     return row['cnt']
 
 
@@ -349,5 +318,3 @@ def move_to_archive(word, mastodon_id):
         conn.rollback()
         logging.exception(e)
         raise
-    finally:
-        conn.close()

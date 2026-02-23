@@ -7,8 +7,9 @@ profil_context.pxd/
 .vscode/*
 parser/archive/*
 .*
+!.github
+!.gitignore
 parser/utilities/mastodon_starter.py
-.env
 venv/*
 parser/plenarlog.log
 *.xml

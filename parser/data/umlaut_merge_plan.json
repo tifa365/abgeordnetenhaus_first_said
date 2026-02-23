@@ -1,0 +1,9195 @@
+[
+  {
+    "folded": "ahnli",
+    "canonical": "ähnli",
+    "members": [
+      {
+        "key": "ahnli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ähnli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "alkoholmissr",
+    "canonical": "alkoholmißr",
+    "members": [
+      {
+        "key": "alkoholmissr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "alkoholmißr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "altholz",
+    "canonical": "althölz",
+    "members": [
+      {
+        "key": "altholz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "althölz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "amokl",
+    "canonical": "ämokl",
+    "members": [
+      {
+        "key": "amokl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ämokl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "angli",
+    "canonical": "ängli",
+    "members": [
+      {
+        "key": "angli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ängli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "angst",
+    "canonical": "ängst",
+    "members": [
+      {
+        "key": "angst",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "ängst",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "angstli",
+    "canonical": "ängstli",
+    "members": [
+      {
+        "key": "angstli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ängstli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ankomm",
+    "canonical": "änkomm",
+    "members": [
+      {
+        "key": "ankomm",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "änkomm",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "anlassli",
+    "canonical": "anlässli",
+    "members": [
+      {
+        "key": "anlässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "anläßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "anstos",
+    "canonical": "anstös",
+    "members": [
+      {
+        "key": "anstos",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "anstös",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "anstoss",
+    "canonical": "anstoß",
+    "members": [
+      {
+        "key": "anstoß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "anstöß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "april",
+    "canonical": "äpril",
+    "members": [
+      {
+        "key": "april",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "äpril",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "armst",
+    "canonical": "ärmst",
+    "members": [
+      {
+        "key": "armst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ärmst",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "arstr",
+    "canonical": "ärstr",
+    "members": [
+      {
+        "key": "arstr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ärstr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "arzti",
+    "canonical": "ärzti",
+    "members": [
+      {
+        "key": "arzti",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ärzti",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "arztin",
+    "canonical": "ärztin",
+    "members": [
+      {
+        "key": "arztin",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ärztin",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "arztlih",
+    "canonical": "ärztlih",
+    "members": [
+      {
+        "key": "arztlih",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ärztlih",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "arzt·",
+    "canonical": "ärzt·",
+    "members": [
+      {
+        "key": "arzt·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ärzt·",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "athiopi",
+    "canonical": "äthiopi",
+    "members": [
+      {
+        "key": "athiopi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "äthiopi",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "billigloh",
+    "canonical": "billiglöh",
+    "members": [
+      {
+        "key": "billigloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "billiglöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "bilngsfor",
+    "canonical": "bilngsför",
+    "members": [
+      {
+        "key": "bilngsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "bilngsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "bohrlo",
+    "canonical": "bohrlö",
+    "members": [
+      {
+        "key": "bohrlo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "bohrlö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "dorfl",
+    "canonical": "dörfl",
+    "members": [
+      {
+        "key": "dorfl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "dörfl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "dorst",
+    "canonical": "dörst",
+    "members": [
+      {
+        "key": "dorst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "dörst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "einhor",
+    "canonical": "einhör",
+    "members": [
+      {
+        "key": "einhor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "einhör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "empor",
+    "canonical": "empör",
+    "members": [
+      {
+        "key": "empor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "empör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "erho·",
+    "canonical": "erhö·",
+    "members": [
+      {
+        "key": "erho·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "erhö·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "erstklassl",
+    "canonical": "erstklässl",
+    "members": [
+      {
+        "key": "erstklässl",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "erstkläßl",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ffrohr",
+    "canonical": "ffröhr",
+    "members": [
+      {
+        "key": "ffrohr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ffröhr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "fkopf",
+    "canonical": "fköpf",
+    "members": [
+      {
+        "key": "fkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "fköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "formh",
+    "canonical": "förmh",
+    "members": [
+      {
+        "key": "formh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "förmh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "formlo",
+    "canonical": "formlö",
+    "members": [
+      {
+        "key": "formlo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "formlö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "form·",
+    "canonical": "förm·",
+    "members": [
+      {
+        "key": "form·",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "förm·",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "forrn",
+    "canonical": "förrn",
+    "members": [
+      {
+        "key": "forrn",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "förrn",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "forrri",
+    "canonical": "förrri",
+    "members": [
+      {
+        "key": "forrri",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "förrri",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "forrst",
+    "canonical": "förrst",
+    "members": [
+      {
+        "key": "forrst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "förrst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "forrt",
+    "canonical": "förrt",
+    "members": [
+      {
+        "key": "forrt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "förrt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "forst",
+    "canonical": "först",
+    "members": [
+      {
+        "key": "forst",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "först",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "fortfuhr",
+    "canonical": "fortführ",
+    "members": [
+      {
+        "key": "fortführ",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "förtführ",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "frisst",
+    "canonical": "frißt",
+    "members": [
+      {
+        "key": "frisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "frißt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "front",
+    "canonical": "frönt",
+    "members": [
+      {
+        "key": "front",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "frönt",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "frost",
+    "canonical": "fröst",
+    "members": [
+      {
+        "key": "frost",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "fröst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "fruhfor",
+    "canonical": "frühfor",
+    "members": [
+      {
+        "key": "frühfor",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "frühför",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "fsfor",
+    "canonical": "fsför",
+    "members": [
+      {
+        "key": "fsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "fsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ftsfo",
+    "canonical": "ftsfö",
+    "members": [
+      {
+        "key": "ftsfo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ftsfö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ftsfor",
+    "canonical": "ftsför",
+    "members": [
+      {
+        "key": "ftsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ftsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ftsforr",
+    "canonical": "ftsförr",
+    "members": [
+      {
+        "key": "ftsforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ftsförr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ftsfor·",
+    "canonical": "ftsför·",
+    "members": [
+      {
+        "key": "ftsfor·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ftsför·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ftslo",
+    "canonical": "ftslö",
+    "members": [
+      {
+        "key": "ftslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ftslö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "fullhor",
+    "canonical": "füllhor",
+    "members": [
+      {
+        "key": "füllhor",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "füllhör",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "glasst",
+    "canonical": "glässt",
+    "members": [
+      {
+        "key": "glässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "gläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "gottli",
+    "canonical": "göttli",
+    "members": [
+      {
+        "key": "gottli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "göttli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "grassli",
+    "canonical": "grässli",
+    "members": [
+      {
+        "key": "grässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "gräßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "groll",
+    "canonical": "gröll",
+    "members": [
+      {
+        "key": "groll",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "gröll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "grossm",
+    "canonical": "großm",
+    "members": [
+      {
+        "key": "grossm",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "großm",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "grosso",
+    "canonical": "großo",
+    "members": [
+      {
+        "key": "grosso",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "großo",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "grosst",
+    "canonical": "großt",
+    "members": [
+      {
+        "key": "grosst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "großt",
+        "count": 3,
+        "merged": false
+      },
+      {
+        "key": "größt",
+        "count": 2,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "gross·",
+    "canonical": "groß·",
+    "members": [
+      {
+        "key": "groß·",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "größ·",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "grusst",
+    "canonical": "grüßt",
+    "members": [
+      {
+        "key": "grüsst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "grüßt",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "gsfor",
+    "canonical": "gsför",
+    "members": [
+      {
+        "key": "gsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "gsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "gshoh",
+    "canonical": "gshöh",
+    "members": [
+      {
+        "key": "gshoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "gshöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "gsoff",
+    "canonical": "gsöff",
+    "members": [
+      {
+        "key": "gsoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "gsöff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "gwort",
+    "canonical": "gwört",
+    "members": [
+      {
+        "key": "gwort",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "gwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "h-for",
+    "canonical": "h-för",
+    "members": [
+      {
+        "key": "h-for",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "h-för",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hassli",
+    "canonical": "hässli",
+    "members": [
+      {
+        "key": "hässli",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "häßli",
+        "count": 2,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hholz",
+    "canonical": "hhölz",
+    "members": [
+      {
+        "key": "hholz",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hhölz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "himpfwort",
+    "canonical": "himpfwört",
+    "members": [
+      {
+        "key": "himpfwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "himpfwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hinhor",
+    "canonical": "hinhör",
+    "members": [
+      {
+        "key": "hinhor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hinhör",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hinmo",
+    "canonical": "hinmö",
+    "members": [
+      {
+        "key": "hinmo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hinmö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "histor",
+    "canonical": "histör",
+    "members": [
+      {
+        "key": "histor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "histör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hkoff",
+    "canonical": "hköff",
+    "members": [
+      {
+        "key": "hkoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hköff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hkopf",
+    "canonical": "hköpf",
+    "members": [
+      {
+        "key": "hkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hkopp",
+    "canonical": "hköpp",
+    "members": [
+      {
+        "key": "hkopp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hköpp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hkusst",
+    "canonical": "hküsst",
+    "members": [
+      {
+        "key": "hküsst",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hküßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hlassigk",
+    "canonical": "hlässigk",
+    "members": [
+      {
+        "key": "hlässigk",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hläßigk",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hlasst",
+    "canonical": "hlässt",
+    "members": [
+      {
+        "key": "hlässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hloss-a",
+    "canonical": "hloß-a",
+    "members": [
+      {
+        "key": "hloss-a",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloß-a",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossf",
+    "canonical": "hloßf",
+    "members": [
+      {
+        "key": "hlossf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossfr",
+    "canonical": "hloßfr",
+    "members": [
+      {
+        "key": "hlossfr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßfr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossg",
+    "canonical": "hloßg",
+    "members": [
+      {
+        "key": "hlossg",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßg",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossin",
+    "canonical": "hloßin",
+    "members": [
+      {
+        "key": "hlossin",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßin",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossk",
+    "canonical": "hloßk",
+    "members": [
+      {
+        "key": "hlossk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossp",
+    "canonical": "hloßp",
+    "members": [
+      {
+        "key": "hlossp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlosspl",
+    "canonical": "hloßpl",
+    "members": [
+      {
+        "key": "hlosspl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßpl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossport",
+    "canonical": "hloßport",
+    "members": [
+      {
+        "key": "hlossport",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßport",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossproj",
+    "canonical": "hloßproj",
+    "members": [
+      {
+        "key": "hlossproj",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßproj",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossr",
+    "canonical": "hloßr",
+    "members": [
+      {
+        "key": "hlossr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hlossstr",
+    "canonical": "hloßstr",
+    "members": [
+      {
+        "key": "hlossstr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloßstr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hloss“",
+    "canonical": "hloß“",
+    "members": [
+      {
+        "key": "hloss“",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hloß“",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hnfor",
+    "canonical": "hnför",
+    "members": [
+      {
+        "key": "hnfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hnför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hnhof",
+    "canonical": "hnhöf",
+    "members": [
+      {
+        "key": "hnhof",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "hnhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hnsto",
+    "canonical": "hnstö",
+    "members": [
+      {
+        "key": "hnsto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hnstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hofli",
+    "canonical": "höfli",
+    "members": [
+      {
+        "key": "hofli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "höfli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "holli",
+    "canonical": "hölli",
+    "members": [
+      {
+        "key": "holli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hölli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "holzk",
+    "canonical": "hölzk",
+    "members": [
+      {
+        "key": "holzk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hölzk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "honig",
+    "canonical": "hönig",
+    "members": [
+      {
+        "key": "honig",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "hönig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "honst",
+    "canonical": "hönst",
+    "members": [
+      {
+        "key": "honst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hönst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hormit",
+    "canonical": "hörmit",
+    "members": [
+      {
+        "key": "hormit",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hörmit",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "horno",
+    "canonical": "hörno",
+    "members": [
+      {
+        "key": "horno",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hörno",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hornst",
+    "canonical": "hörnst",
+    "members": [
+      {
+        "key": "hornst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hörnst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "horst",
+    "canonical": "hörst",
+    "members": [
+      {
+        "key": "horst",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hörst",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hortg",
+    "canonical": "hörtg",
+    "members": [
+      {
+        "key": "hortg",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hörtg",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hossfla",
+    "canonical": "hossflä",
+    "members": [
+      {
+        "key": "hossflä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hoßflä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hosshoh",
+    "canonical": "hosshöh",
+    "members": [
+      {
+        "key": "hosshöh",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hoßhöh",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hosswoh",
+    "canonical": "hoßwoh",
+    "members": [
+      {
+        "key": "hosswoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hoßwoh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hosszo",
+    "canonical": "hoßzo",
+    "members": [
+      {
+        "key": "hosszo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hoßzo",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hottl",
+    "canonical": "höttl",
+    "members": [
+      {
+        "key": "hottl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "höttl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrfor",
+    "canonical": "hrför",
+    "members": [
+      {
+        "key": "hrfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hrför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrsfor",
+    "canonical": "hrsför",
+    "members": [
+      {
+        "key": "hrsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hrsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrslo",
+    "canonical": "hrslö",
+    "members": [
+      {
+        "key": "hrslo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hrslö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrsmo",
+    "canonical": "hrsmö",
+    "members": [
+      {
+        "key": "hrsmo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hrsmö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrsstrom",
+    "canonical": "hrsström",
+    "members": [
+      {
+        "key": "hrsstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hrsström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hrsto",
+    "canonical": "hrstö",
+    "members": [
+      {
+        "key": "hrsto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hrstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hsfor",
+    "canonical": "hsför",
+    "members": [
+      {
+        "key": "hsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hstfor",
+    "canonical": "hstför",
+    "members": [
+      {
+        "key": "hstfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hstför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hstklassl",
+    "canonical": "hstklässl",
+    "members": [
+      {
+        "key": "hstklässl",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "hstkläßl",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "hstrom",
+    "canonical": "hström",
+    "members": [
+      {
+        "key": "hstrom",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htfor",
+    "canonical": "htför",
+    "members": [
+      {
+        "key": "htfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "htför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hthof",
+    "canonical": "hthöf",
+    "members": [
+      {
+        "key": "hthof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hthöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hthoh",
+    "canonical": "hthöh",
+    "members": [
+      {
+        "key": "hthoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hthöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htkon",
+    "canonical": "htkön",
+    "members": [
+      {
+        "key": "htkon",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "htkön",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htlingsstrom",
+    "canonical": "htlingsström",
+    "members": [
+      {
+        "key": "htlingsstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "htlingsström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htoff",
+    "canonical": "htöff",
+    "members": [
+      {
+        "key": "htoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "htöff",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htopf",
+    "canonical": "htöpf",
+    "members": [
+      {
+        "key": "htopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "htöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htshof",
+    "canonical": "htshöf",
+    "members": [
+      {
+        "key": "htshof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "htshöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htskon",
+    "canonical": "htskön",
+    "members": [
+      {
+        "key": "htskon",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "htskön",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "htslo",
+    "canonical": "htslö",
+    "members": [
+      {
+        "key": "htslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "htslö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hvolk",
+    "canonical": "hvölk",
+    "members": [
+      {
+        "key": "hvolk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "hvölk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "hwort",
+    "canonical": "hwört",
+    "members": [
+      {
+        "key": "hwort",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "hwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "igross",
+    "canonical": "igroß",
+    "members": [
+      {
+        "key": "igroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "igröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ikorp",
+    "canonical": "ikörp",
+    "members": [
+      {
+        "key": "ikorp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ikörp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "imisst",
+    "canonical": "imißt",
+    "members": [
+      {
+        "key": "imisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "imißt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "infor",
+    "canonical": "inför",
+    "members": [
+      {
+        "key": "infor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "inför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ingto",
+    "canonical": "ingtö",
+    "members": [
+      {
+        "key": "ingto",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ingtö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "inkon",
+    "canonical": "inkön",
+    "members": [
+      {
+        "key": "inkon",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "inkön",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "inlasst",
+    "canonical": "inlässt",
+    "members": [
+      {
+        "key": "inlässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "inläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "inzog",
+    "canonical": "inzög",
+    "members": [
+      {
+        "key": "inzog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "inzög",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "issigst",
+    "canonical": "ißigst",
+    "members": [
+      {
+        "key": "issigst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ißigst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "isskopfstr",
+    "canonical": "ißkopfstr",
+    "members": [
+      {
+        "key": "isskopfstr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ißkopfstr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "isssta",
+    "canonical": "issstä",
+    "members": [
+      {
+        "key": "issstä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ißstä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "isswolf",
+    "canonical": "ißwolf",
+    "members": [
+      {
+        "key": "ißwolf",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "ißwölf",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "itfor",
+    "canonical": "itför",
+    "members": [
+      {
+        "key": "itfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "itför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "itnot",
+    "canonical": "itnöt",
+    "members": [
+      {
+        "key": "itnot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "itnöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "itsfo",
+    "canonical": "itsfö",
+    "members": [
+      {
+        "key": "itsfo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "itsfö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "itsfor",
+    "canonical": "itsför",
+    "members": [
+      {
+        "key": "itsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "itsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "itslo",
+    "canonical": "itslö",
+    "members": [
+      {
+        "key": "itslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "itslö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "itsloh",
+    "canonical": "itslöh",
+    "members": [
+      {
+        "key": "itsloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "itslöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "izwort",
+    "canonical": "izwört",
+    "members": [
+      {
+        "key": "izwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "izwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "klasst",
+    "canonical": "klässt",
+    "members": [
+      {
+        "key": "klässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "kläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "klopp",
+    "canonical": "klöpp",
+    "members": [
+      {
+        "key": "klopp",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "klöpp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "klost",
+    "canonical": "klöst",
+    "members": [
+      {
+        "key": "klost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "klöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "klotz",
+    "canonical": "klötz",
+    "members": [
+      {
+        "key": "klotz",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "klötz",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "knoll",
+    "canonical": "knöll",
+    "members": [
+      {
+        "key": "knoll",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "knöll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "knopf",
+    "canonical": "knöpf",
+    "members": [
+      {
+        "key": "knopf",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "knöpf",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "knopflo",
+    "canonical": "knopflö",
+    "members": [
+      {
+        "key": "knopflo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "knopflö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kolling",
+    "canonical": "kölling",
+    "members": [
+      {
+        "key": "kolling",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kölling",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromiss",
+    "canonical": "kompromiß",
+    "members": [
+      {
+        "key": "kompromiss",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromiß",
+        "count": 3,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissfahig",
+    "canonical": "kompromissfähig",
+    "members": [
+      {
+        "key": "kompromissfähig",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "kompromißfähig",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "kompromissfahigk",
+    "canonical": "kompromissfähigk",
+    "members": [
+      {
+        "key": "kompromissfähigk",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "kompromißfähigk",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "kompromissfi",
+    "canonical": "kompromißfi",
+    "members": [
+      {
+        "key": "kompromissfi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißfi",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissform",
+    "canonical": "kompromißform",
+    "members": [
+      {
+        "key": "kompromissform",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißform",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissh",
+    "canonical": "kompromißh",
+    "members": [
+      {
+        "key": "kompromissh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißh",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromisslini",
+    "canonical": "kompromißlini",
+    "members": [
+      {
+        "key": "kompromisslini",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißlini",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromisslo",
+    "canonical": "kompromißlo",
+    "members": [
+      {
+        "key": "kompromisslo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromisslö",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißlo",
+        "count": 3,
+        "merged": false
+      },
+      {
+        "key": "kompromißlö",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "kompromisslosigk",
+    "canonical": "kompromißlosigk",
+    "members": [
+      {
+        "key": "kompromisslosigk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißlosigk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissp",
+    "canonical": "kompromißp",
+    "members": [
+      {
+        "key": "kompromissp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissproz",
+    "canonical": "kompromißproz",
+    "members": [
+      {
+        "key": "kompromissproz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißproz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissr",
+    "canonical": "kompromißr",
+    "members": [
+      {
+        "key": "kompromissr",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "kompromißr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissv",
+    "canonical": "kompromißv",
+    "members": [
+      {
+        "key": "kompromissv",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißv",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissvor",
+    "canonical": "kompromißvor",
+    "members": [
+      {
+        "key": "kompromissvor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromißvor",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromissw",
+    "canonical": "kompromißw",
+    "members": [
+      {
+        "key": "kompromissw",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "kompromißw",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kompromiss“",
+    "canonical": "kompromiß“",
+    "members": [
+      {
+        "key": "kompromiss“",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kompromiß“",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "konfliktfor",
+    "canonical": "konfliktför",
+    "members": [
+      {
+        "key": "konfliktfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "konfliktför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "konfliktlo",
+    "canonical": "konfliktlö",
+    "members": [
+      {
+        "key": "konfliktlo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "konfliktlö",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "konnt",
+    "canonical": "könnt",
+    "members": [
+      {
+        "key": "konnt",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "könnt",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "konn·",
+    "canonical": "könn·",
+    "members": [
+      {
+        "key": "konn·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "könn·",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kontroll",
+    "canonical": "kontröll",
+    "members": [
+      {
+        "key": "kontroll",
+        "count": 4,
+        "merged": true
+      },
+      {
+        "key": "kontröll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kopft",
+    "canonical": "köpft",
+    "members": [
+      {
+        "key": "kopft",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "köpft",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "koppl",
+    "canonical": "köppl",
+    "members": [
+      {
+        "key": "koppl",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "köppl",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kroll",
+    "canonical": "kröll",
+    "members": [
+      {
+        "key": "kroll",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "kröll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kropf",
+    "canonical": "kröpf",
+    "members": [
+      {
+        "key": "kropf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kröpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ktionsfor",
+    "canonical": "ktionsför",
+    "members": [
+      {
+        "key": "ktionsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ktionsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ktionsstrom",
+    "canonical": "ktionsström",
+    "members": [
+      {
+        "key": "ktionsstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ktionsström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ktsto",
+    "canonical": "ktstö",
+    "members": [
+      {
+        "key": "ktsto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ktstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "kttopf",
+    "canonical": "kttöpf",
+    "members": [
+      {
+        "key": "kttopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "kttöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "l-for",
+    "canonical": "l-för",
+    "members": [
+      {
+        "key": "l-for",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "l-för",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lassli",
+    "canonical": "läßli",
+    "members": [
+      {
+        "key": "lässli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "läßli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lasst“",
+    "canonical": "lässt“",
+    "members": [
+      {
+        "key": "lässt“",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "läßt“",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "lforr",
+    "canonical": "lförr",
+    "members": [
+      {
+        "key": "lforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lförr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lfor·",
+    "canonical": "lför·",
+    "members": [
+      {
+        "key": "lfor·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lför·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lgross",
+    "canonical": "lgroß",
+    "members": [
+      {
+        "key": "lgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "lgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "lhnhof",
+    "canonical": "lhnhöf",
+    "members": [
+      {
+        "key": "lhnhof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "lhnhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lholz",
+    "canonical": "lhölz",
+    "members": [
+      {
+        "key": "lholz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lhölz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ligio",
+    "canonical": "ligiö",
+    "members": [
+      {
+        "key": "ligio",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ligiö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ligiositat",
+    "canonical": "ligiosität",
+    "members": [
+      {
+        "key": "ligiosität",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ligiösität",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "linghof",
+    "canonical": "linghöf",
+    "members": [
+      {
+        "key": "linghof",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "linghöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lingswort",
+    "canonical": "lingswört",
+    "members": [
+      {
+        "key": "lingswort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lingswört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "litionskompromiss",
+    "canonical": "litionskompromiß",
+    "members": [
+      {
+        "key": "litionskompromiss",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "litionskompromiß",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "llfor",
+    "canonical": "llför",
+    "members": [
+      {
+        "key": "llfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "llför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "llhor",
+    "canonical": "llhör",
+    "members": [
+      {
+        "key": "llhor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "llhör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "llkopf",
+    "canonical": "llköpf",
+    "members": [
+      {
+        "key": "llkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "llköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "llstrom",
+    "canonical": "llström",
+    "members": [
+      {
+        "key": "llstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "llström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lltopf",
+    "canonical": "lltöpf",
+    "members": [
+      {
+        "key": "lltopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lltöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lohnt",
+    "canonical": "löhnt",
+    "members": [
+      {
+        "key": "lohnt",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "löhnt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "loko·",
+    "canonical": "löko·",
+    "members": [
+      {
+        "key": "loko·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "löko·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "loslasst",
+    "canonical": "loslässt",
+    "members": [
+      {
+        "key": "loslässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "losläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "lottotopf",
+    "canonical": "lottotöpf",
+    "members": [
+      {
+        "key": "lottotopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lottotöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lrohr",
+    "canonical": "lröhr",
+    "members": [
+      {
+        "key": "lrohr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lröhr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lstrom",
+    "canonical": "lström",
+    "members": [
+      {
+        "key": "lstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltfor",
+    "canonical": "ltför",
+    "members": [
+      {
+        "key": "ltfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ltför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltoff",
+    "canonical": "ltöff",
+    "members": [
+      {
+        "key": "ltoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ltöff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltopf",
+    "canonical": "ltöpf",
+    "members": [
+      {
+        "key": "ltopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ltöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltsfor",
+    "canonical": "ltsför",
+    "members": [
+      {
+        "key": "ltsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ltsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltshoh",
+    "canonical": "ltshöh",
+    "members": [
+      {
+        "key": "ltshoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ltshöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltslo",
+    "canonical": "ltslö",
+    "members": [
+      {
+        "key": "ltslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ltslö",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltsnot",
+    "canonical": "ltsnöt",
+    "members": [
+      {
+        "key": "ltsnot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ltsnöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ltstopf",
+    "canonical": "ltstöpf",
+    "members": [
+      {
+        "key": "ltstopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ltstöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "lwort",
+    "canonical": "lwört",
+    "members": [
+      {
+        "key": "lwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "lwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mgross",
+    "canonical": "mgroß",
+    "members": [
+      {
+        "key": "mgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "millio",
+    "canonical": "milliö",
+    "members": [
+      {
+        "key": "millio",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "milliö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "miniloh",
+    "canonical": "minilöh",
+    "members": [
+      {
+        "key": "miniloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "minilöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "minstloh",
+    "canonical": "minstlöh",
+    "members": [
+      {
+        "key": "minstloh",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "minstlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missfallt",
+    "canonical": "missfällt",
+    "members": [
+      {
+        "key": "missfällt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mißfällt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missfi",
+    "canonical": "mißfi",
+    "members": [
+      {
+        "key": "missfi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißfi",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missglu",
+    "canonical": "missglü",
+    "members": [
+      {
+        "key": "missglü",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mißglü",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missgriff",
+    "canonical": "mißgriff",
+    "members": [
+      {
+        "key": "missgriff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißgriff",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missgunstig",
+    "canonical": "missgünstig",
+    "members": [
+      {
+        "key": "missgünstig",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mißgünstig",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missht",
+    "canonical": "mißht",
+    "members": [
+      {
+        "key": "missht",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißht",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missillig",
+    "canonical": "mißillig",
+    "members": [
+      {
+        "key": "missillig",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißillig",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missint",
+    "canonical": "mißint",
+    "members": [
+      {
+        "key": "missint",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißint",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missio",
+    "canonical": "mißio",
+    "members": [
+      {
+        "key": "missio",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißio",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misskl",
+    "canonical": "mißkl",
+    "members": [
+      {
+        "key": "misskl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißkl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misskr",
+    "canonical": "mißkr",
+    "members": [
+      {
+        "key": "misskr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißkr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missli",
+    "canonical": "mißli",
+    "members": [
+      {
+        "key": "missli",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missling",
+    "canonical": "mißling",
+    "members": [
+      {
+        "key": "missling",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißling",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misslo",
+    "canonical": "mißlö",
+    "members": [
+      {
+        "key": "misslo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißlö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missra",
+    "canonical": "missrä",
+    "members": [
+      {
+        "key": "missrä",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "mißrä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missst",
+    "canonical": "mißst",
+    "members": [
+      {
+        "key": "missst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißst",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misssta",
+    "canonical": "missstä",
+    "members": [
+      {
+        "key": "missstä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mißstä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missstan",
+    "canonical": "missstän",
+    "members": [
+      {
+        "key": "missstän",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "mißstän",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "missstimm",
+    "canonical": "mißstimm",
+    "members": [
+      {
+        "key": "missstimm",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißstimm",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "missto",
+    "canonical": "misstö",
+    "members": [
+      {
+        "key": "missto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "misstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misstr",
+    "canonical": "mißtr",
+    "members": [
+      {
+        "key": "misstr",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mißtr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "misswirt",
+    "canonical": "mißwirt",
+    "members": [
+      {
+        "key": "misswirt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mißwirt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mitfor",
+    "canonical": "mitför",
+    "members": [
+      {
+        "key": "mitfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mitför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mitzog",
+    "canonical": "mitzög",
+    "members": [
+      {
+        "key": "mitzog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mitzög",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mmfor",
+    "canonical": "mmför",
+    "members": [
+      {
+        "key": "mmfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mmför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mmkopf",
+    "canonical": "mmköpf",
+    "members": [
+      {
+        "key": "mmkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mmköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "monto",
+    "canonical": "montö",
+    "members": [
+      {
+        "key": "monto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "montö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "morri",
+    "canonical": "mörri",
+    "members": [
+      {
+        "key": "morri",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mörri",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "motor",
+    "canonical": "motör",
+    "members": [
+      {
+        "key": "motor",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "motör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mpflo",
+    "canonical": "mpflö",
+    "members": [
+      {
+        "key": "mpflo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mpflö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mpfto",
+    "canonical": "mpftö",
+    "members": [
+      {
+        "key": "mpfto",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mpftö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mpingloh",
+    "canonical": "mpinglöh",
+    "members": [
+      {
+        "key": "mpingloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mpinglöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "msfor",
+    "canonical": "msför",
+    "members": [
+      {
+        "key": "msfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "msför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "msklotz",
+    "canonical": "msklötz",
+    "members": [
+      {
+        "key": "msklotz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "msklötz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "msoff",
+    "canonical": "msöff",
+    "members": [
+      {
+        "key": "msoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "msöff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mtfor",
+    "canonical": "mtför",
+    "members": [
+      {
+        "key": "mtfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "mtför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "mtspost",
+    "canonical": "mtspöst",
+    "members": [
+      {
+        "key": "mtspost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "mtspöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "n-blo",
+    "canonical": "n-blö",
+    "members": [
+      {
+        "key": "n-blo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "n-blö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "n-for",
+    "canonical": "n-för",
+    "members": [
+      {
+        "key": "n-for",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "n-för",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "n-kon",
+    "canonical": "n-kön",
+    "members": [
+      {
+        "key": "n-kon",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "n-kön",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nforr",
+    "canonical": "nförr",
+    "members": [
+      {
+        "key": "nforr",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "nförr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nfor·",
+    "canonical": "nför·",
+    "members": [
+      {
+        "key": "nfor·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nför·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nftsfor",
+    "canonical": "nftsför",
+    "members": [
+      {
+        "key": "nftsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nftsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nftslo",
+    "canonical": "nftslö",
+    "members": [
+      {
+        "key": "nftslo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nftslö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nghoh",
+    "canonical": "nghöh",
+    "members": [
+      {
+        "key": "nghoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nghöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngross",
+    "canonical": "ngroß",
+    "members": [
+      {
+        "key": "ngroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ngröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ngsfo",
+    "canonical": "ngsfö",
+    "members": [
+      {
+        "key": "ngsfo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ngsfö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsfor",
+    "canonical": "ngsför",
+    "members": [
+      {
+        "key": "ngsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ngsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsforr",
+    "canonical": "ngsförr",
+    "members": [
+      {
+        "key": "ngsforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsförr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsfromm",
+    "canonical": "ngsfrömm",
+    "members": [
+      {
+        "key": "ngsfromm",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsfrömm",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsho",
+    "canonical": "ngshö",
+    "members": [
+      {
+        "key": "ngsho",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngshö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngshof",
+    "canonical": "ngshöf",
+    "members": [
+      {
+        "key": "ngshof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ngshöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngshoh",
+    "canonical": "ngshöh",
+    "members": [
+      {
+        "key": "ngshoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngshöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngslo",
+    "canonical": "ngslö",
+    "members": [
+      {
+        "key": "ngslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ngslö",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsmissr",
+    "canonical": "ngsmißr",
+    "members": [
+      {
+        "key": "ngsmissr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsmißr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsmisssta",
+    "canonical": "ngsmissstä",
+    "members": [
+      {
+        "key": "ngsmissstä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ngsmißstä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ngsnot",
+    "canonical": "ngsnöt",
+    "members": [
+      {
+        "key": "ngsnot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsnöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsoff",
+    "canonical": "ngsöff",
+    "members": [
+      {
+        "key": "ngsoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsöff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsor",
+    "canonical": "ngsör",
+    "members": [
+      {
+        "key": "ngsor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngspost",
+    "canonical": "ngspöst",
+    "members": [
+      {
+        "key": "ngspost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngspöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsprogr",
+    "canonical": "ngsprögr",
+    "members": [
+      {
+        "key": "ngsprogr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsprögr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsstrom",
+    "canonical": "ngsström",
+    "members": [
+      {
+        "key": "ngsstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngsström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngsto",
+    "canonical": "ngstö",
+    "members": [
+      {
+        "key": "ngsto",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ngstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngstopf",
+    "canonical": "ngstöpf",
+    "members": [
+      {
+        "key": "ngstopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngstöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ngstot",
+    "canonical": "ngstöt",
+    "members": [
+      {
+        "key": "ngstot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ngstöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nholz",
+    "canonical": "nhölz",
+    "members": [
+      {
+        "key": "nholz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nhölz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nhort",
+    "canonical": "nhört",
+    "members": [
+      {
+        "key": "nhort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nhört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nkopf",
+    "canonical": "nköpf",
+    "members": [
+      {
+        "key": "nkopf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "nköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nktfor",
+    "canonical": "nktför",
+    "members": [
+      {
+        "key": "nktfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nktför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nlassli",
+    "canonical": "nlässli",
+    "members": [
+      {
+        "key": "nlässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "nläßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nlasst",
+    "canonical": "nlässt",
+    "members": [
+      {
+        "key": "nlässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "nläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nmissr",
+    "canonical": "nmißr",
+    "members": [
+      {
+        "key": "nmissr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nmißr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nmissv",
+    "canonical": "nmißv",
+    "members": [
+      {
+        "key": "nmissv",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nmißv",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nn-ar",
+    "canonical": "nn-är",
+    "members": [
+      {
+        "key": "nn-ar",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nn-är",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nn-lo",
+    "canonical": "nn-lö",
+    "members": [
+      {
+        "key": "nn-lo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nn-lö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nnisst",
+    "canonical": "nnißt",
+    "members": [
+      {
+        "key": "nnisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nnißt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nnloh",
+    "canonical": "nnlöh",
+    "members": [
+      {
+        "key": "nnloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nnlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nolig",
+    "canonical": "nölig",
+    "members": [
+      {
+        "key": "nolig",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nölig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nossi",
+    "canonical": "nössi",
+    "members": [
+      {
+        "key": "nossi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nössi",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "noti·",
+    "canonical": "nöti·",
+    "members": [
+      {
+        "key": "noti·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nöti·",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "npassli",
+    "canonical": "npässli",
+    "members": [
+      {
+        "key": "npässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "npäßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nsfor",
+    "canonical": "nsför",
+    "members": [
+      {
+        "key": "nsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "nsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nsgross",
+    "canonical": "nsgroß",
+    "members": [
+      {
+        "key": "nsgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "nsgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nsnot",
+    "canonical": "nsnöt",
+    "members": [
+      {
+        "key": "nsnot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nsnöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nstfor",
+    "canonical": "nstför",
+    "members": [
+      {
+        "key": "nstfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nstför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nstor",
+    "canonical": "nstör",
+    "members": [
+      {
+        "key": "nstor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nstör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nstoss",
+    "canonical": "nstoß",
+    "members": [
+      {
+        "key": "nstoß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "nstöß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nstrom",
+    "canonical": "nström",
+    "members": [
+      {
+        "key": "nstrom",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "nström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nt-lo",
+    "canonical": "nt-lö",
+    "members": [
+      {
+        "key": "nt-lo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nt-lö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ntionstopf",
+    "canonical": "ntionstöpf",
+    "members": [
+      {
+        "key": "ntionstopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ntionstöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ntlasst",
+    "canonical": "ntlässt",
+    "members": [
+      {
+        "key": "ntlässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ntläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ntopf",
+    "canonical": "ntöpf",
+    "members": [
+      {
+        "key": "ntopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ntöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ntwort",
+    "canonical": "ntwört",
+    "members": [
+      {
+        "key": "ntwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ntwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ntzog",
+    "canonical": "ntzög",
+    "members": [
+      {
+        "key": "ntzog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ntzög",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nussli",
+    "canonical": "nüssli",
+    "members": [
+      {
+        "key": "nüssli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "nüßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "nvolk",
+    "canonical": "nvölk",
+    "members": [
+      {
+        "key": "nvolk",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "nvölk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nzfor",
+    "canonical": "nzför",
+    "members": [
+      {
+        "key": "nzfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "nzför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nzhoh",
+    "canonical": "nzhöh",
+    "members": [
+      {
+        "key": "nzhoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nzhöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nznot",
+    "canonical": "nznöt",
+    "members": [
+      {
+        "key": "nznot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nznöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nzoff",
+    "canonical": "nzöff",
+    "members": [
+      {
+        "key": "nzoff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nzöff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "nztopf",
+    "canonical": "nztöpf",
+    "members": [
+      {
+        "key": "nztopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "nztöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "oko-m",
+    "canonical": "öko-m",
+    "members": [
+      {
+        "key": "oko-m",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "öko-m",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okolog",
+    "canonical": "ökolog",
+    "members": [
+      {
+        "key": "okolog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökolog",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okologi",
+    "canonical": "ökologi",
+    "members": [
+      {
+        "key": "okologi",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "okölogi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökologi",
+        "count": 4,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okologisi",
+    "canonical": "ökologisi",
+    "members": [
+      {
+        "key": "okologisi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökologisi",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okonom",
+    "canonical": "ökonom",
+    "members": [
+      {
+        "key": "okonom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökonom",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okonomi",
+    "canonical": "ökonomi",
+    "members": [
+      {
+        "key": "okonomi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökonomi",
+        "count": 5,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okonomt",
+    "canonical": "ökonomt",
+    "members": [
+      {
+        "key": "okonomt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökonomt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "okost",
+    "canonical": "ökost",
+    "members": [
+      {
+        "key": "okost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ökost",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "olint",
+    "canonical": "ölint",
+    "members": [
+      {
+        "key": "olint",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ölint",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "olsta",
+    "canonical": "olstä",
+    "members": [
+      {
+        "key": "olstä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ölstä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "olympi",
+    "canonical": "ölympi",
+    "members": [
+      {
+        "key": "olympi",
+        "count": 4,
+        "merged": true
+      },
+      {
+        "key": "ölympi",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "omino",
+    "canonical": "ominö",
+    "members": [
+      {
+        "key": "omino",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ominö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ook-a",
+    "canonical": "ook-ä",
+    "members": [
+      {
+        "key": "ook-a",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ook-ä",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "oppositio",
+    "canonical": "öppositio",
+    "members": [
+      {
+        "key": "oppositio",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "öppositio",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ortfi",
+    "canonical": "örtfi",
+    "members": [
+      {
+        "key": "ortfi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "örtfi",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ortli",
+    "canonical": "örtli",
+    "members": [
+      {
+        "key": "ortli",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "örtli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ostfor",
+    "canonical": "ostför",
+    "members": [
+      {
+        "key": "ostfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ostför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ostli",
+    "canonical": "östli",
+    "members": [
+      {
+        "key": "ostli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "östli",
+        "count": 3,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ostloh",
+    "canonical": "ostlöh",
+    "members": [
+      {
+        "key": "ostloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ostlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ostti",
+    "canonical": "östti",
+    "members": [
+      {
+        "key": "ostti",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "östti",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "otsfor",
+    "canonical": "otsför",
+    "members": [
+      {
+        "key": "otsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "otsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "pfort",
+    "canonical": "pfört",
+    "members": [
+      {
+        "key": "pfort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "pfört",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "politiklo",
+    "canonical": "politiklö",
+    "members": [
+      {
+        "key": "politiklo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "politiklö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "polst",
+    "canonical": "pölst",
+    "members": [
+      {
+        "key": "polst",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "pölst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "posth",
+    "canonical": "pösth",
+    "members": [
+      {
+        "key": "posth",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "pösth",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ptfor",
+    "canonical": "ptför",
+    "members": [
+      {
+        "key": "ptfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ptför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ptforr",
+    "canonical": "ptförr",
+    "members": [
+      {
+        "key": "ptforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ptförr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ptstrom",
+    "canonical": "ptström",
+    "members": [
+      {
+        "key": "ptstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ptström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "r-blo",
+    "canonical": "r-blö",
+    "members": [
+      {
+        "key": "r-blo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "r-blö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "r-chor",
+    "canonical": "r-chör",
+    "members": [
+      {
+        "key": "r-chor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "r-chör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "r-for",
+    "canonical": "r-för",
+    "members": [
+      {
+        "key": "r-for",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "r-för",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rforr",
+    "canonical": "rförr",
+    "members": [
+      {
+        "key": "rforr",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rförr",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rforrt",
+    "canonical": "rförrt",
+    "members": [
+      {
+        "key": "rforrt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rförrt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rfor·",
+    "canonical": "rför·",
+    "members": [
+      {
+        "key": "rfor·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rför·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rghof",
+    "canonical": "rghöf",
+    "members": [
+      {
+        "key": "rghof",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rghöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rgisst",
+    "canonical": "rgißt",
+    "members": [
+      {
+        "key": "rgisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rgißt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rgross",
+    "canonical": "rgroß",
+    "members": [
+      {
+        "key": "rgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rgro·",
+    "canonical": "rgrö·",
+    "members": [
+      {
+        "key": "rgro·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rgrö·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rhnhof",
+    "canonical": "rhnhöf",
+    "members": [
+      {
+        "key": "rhnhof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rhnhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rhohl",
+    "canonical": "rhöhl",
+    "members": [
+      {
+        "key": "rhohl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rhöhl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rhort",
+    "canonical": "rhört",
+    "members": [
+      {
+        "key": "rhort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rhört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rifhoh",
+    "canonical": "rifhöh",
+    "members": [
+      {
+        "key": "rifhoh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rifhöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "riflo",
+    "canonical": "riflö",
+    "members": [
+      {
+        "key": "riflo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "riflö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rifloh",
+    "canonical": "riflöh",
+    "members": [
+      {
+        "key": "rifloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "riflöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rifzo",
+    "canonical": "rifzö",
+    "members": [
+      {
+        "key": "rifzo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rifzö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rigloh",
+    "canonical": "riglöh",
+    "members": [
+      {
+        "key": "rigloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "riglöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rigstloh",
+    "canonical": "rigstlöh",
+    "members": [
+      {
+        "key": "rigstloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rigstlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "riositat",
+    "canonical": "riosität",
+    "members": [
+      {
+        "key": "riosität",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "riösität",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rissfla",
+    "canonical": "rissflä",
+    "members": [
+      {
+        "key": "rissflä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rißflä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rissha",
+    "canonical": "risshä",
+    "members": [
+      {
+        "key": "risshä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rißhä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rissir",
+    "canonical": "rißir",
+    "members": [
+      {
+        "key": "rissir",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rißir",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "risskost",
+    "canonical": "rißkost",
+    "members": [
+      {
+        "key": "risskost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rißkost",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "risspla",
+    "canonical": "rissplä",
+    "members": [
+      {
+        "key": "rissplä",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rißplä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "risspolitik",
+    "canonical": "rißpolitik",
+    "members": [
+      {
+        "key": "risspolitik",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rißpolitik",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rissstopp",
+    "canonical": "rißstopp",
+    "members": [
+      {
+        "key": "rissstopp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rißstopp",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rissvorh",
+    "canonical": "rißvorh",
+    "members": [
+      {
+        "key": "rissvorh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rißvorh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rkfor",
+    "canonical": "rkför",
+    "members": [
+      {
+        "key": "rkfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rkför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rkhof",
+    "canonical": "rkhöf",
+    "members": [
+      {
+        "key": "rkhof",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rkhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rkopf",
+    "canonical": "rköpf",
+    "members": [
+      {
+        "key": "rkopf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rkopp",
+    "canonical": "rköpp",
+    "members": [
+      {
+        "key": "rkopp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rköpp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rkorp",
+    "canonical": "rkörp",
+    "members": [
+      {
+        "key": "rkorp",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rkörp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rktfor",
+    "canonical": "rktför",
+    "members": [
+      {
+        "key": "rktfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rktför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rlassli",
+    "canonical": "rlässli",
+    "members": [
+      {
+        "key": "rlässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rläßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rlasslih",
+    "canonical": "rlässlih",
+    "members": [
+      {
+        "key": "rlässlih",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rläßlih",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rlasst",
+    "canonical": "rlässt",
+    "members": [
+      {
+        "key": "rlässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rläßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rlin-kop",
+    "canonical": "rlin-köp",
+    "members": [
+      {
+        "key": "rlin-kop",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rlin-köp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rlinfor",
+    "canonical": "rlinför",
+    "members": [
+      {
+        "key": "rlinfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rlinför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rlost",
+    "canonical": "rlöst",
+    "members": [
+      {
+        "key": "rlost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rlöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rmassig",
+    "canonical": "rmässig",
+    "members": [
+      {
+        "key": "rmässig",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rmäßig",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rmisst",
+    "canonical": "rmißt",
+    "members": [
+      {
+        "key": "rmisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rmißt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rmisstr",
+    "canonical": "rmißtr",
+    "members": [
+      {
+        "key": "rmisstr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rmißtr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rmknopf",
+    "canonical": "rmknöpf",
+    "members": [
+      {
+        "key": "rmknopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rmknöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rmort",
+    "canonical": "rmört",
+    "members": [
+      {
+        "key": "rmort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rmört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rnfor",
+    "canonical": "rnför",
+    "members": [
+      {
+        "key": "rnfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rnför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rnhnhof",
+    "canonical": "rnhnhöf",
+    "members": [
+      {
+        "key": "rnhnhof",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rnhnhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rnhof",
+    "canonical": "rnhöf",
+    "members": [
+      {
+        "key": "rnhof",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rnhöf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rnrohr",
+    "canonical": "rnröhr",
+    "members": [
+      {
+        "key": "rnrohr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rnröhr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ro-lo",
+    "canonical": "ro-lö",
+    "members": [
+      {
+        "key": "ro-lo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ro-lö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rohrsto",
+    "canonical": "rohrstö",
+    "members": [
+      {
+        "key": "rohrsto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rohrstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rollig",
+    "canonical": "röllig",
+    "members": [
+      {
+        "key": "rollig",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "röllig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rossstr",
+    "canonical": "roßstr",
+    "members": [
+      {
+        "key": "rossstr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "roßstr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rossta",
+    "canonical": "rosstä",
+    "members": [
+      {
+        "key": "rosstä",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "roßtä",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rotli",
+    "canonical": "rötli",
+    "members": [
+      {
+        "key": "rotli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rötli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rpost",
+    "canonical": "rpöst",
+    "members": [
+      {
+        "key": "rpost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rpöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rrmullhof",
+    "canonical": "rrmüllhof",
+    "members": [
+      {
+        "key": "rrmüllhof",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rrmüllhöf",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rsnot",
+    "canonical": "rsnöt",
+    "members": [
+      {
+        "key": "rsnot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rsnöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rspro",
+    "canonical": "rsprö",
+    "members": [
+      {
+        "key": "rspro",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rsprö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rstor",
+    "canonical": "rstör",
+    "members": [
+      {
+        "key": "rstor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rstör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rstoss",
+    "canonical": "rstoß",
+    "members": [
+      {
+        "key": "rstoß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rstöß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rsto·",
+    "canonical": "rstö·",
+    "members": [
+      {
+        "key": "rsto·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rstö·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rstrom",
+    "canonical": "rström",
+    "members": [
+      {
+        "key": "rstrom",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rstromt",
+    "canonical": "rströmt",
+    "members": [
+      {
+        "key": "rstromt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rströmt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rtopf",
+    "canonical": "rtöpf",
+    "members": [
+      {
+        "key": "rtopf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rtöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rtrog",
+    "canonical": "rtrög",
+    "members": [
+      {
+        "key": "rtrog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rtrög",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rt·rossl",
+    "canonical": "rt·rössl",
+    "members": [
+      {
+        "key": "rt·rössl",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "rt·rößl",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "rvolk",
+    "canonical": "rvölk",
+    "members": [
+      {
+        "key": "rvolk",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "rvölk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rwohnprogr",
+    "canonical": "rwöhnprogr",
+    "members": [
+      {
+        "key": "rwohnprogr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rwöhnprogr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "rwort",
+    "canonical": "rwört",
+    "members": [
+      {
+        "key": "rwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "rwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "s-for",
+    "canonical": "s-för",
+    "members": [
+      {
+        "key": "s-for",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "s-för",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sforr",
+    "canonical": "sförr",
+    "members": [
+      {
+        "key": "sforr",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "sförr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "short",
+    "canonical": "shört",
+    "members": [
+      {
+        "key": "short",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "shört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "si-ho",
+    "canonical": "si-hö",
+    "members": [
+      {
+        "key": "si-ho",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "si-hö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sikfor",
+    "canonical": "sikför",
+    "members": [
+      {
+        "key": "sikfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sikför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "skopf",
+    "canonical": "sköpf",
+    "members": [
+      {
+        "key": "skopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "slasst",
+    "canonical": "slässt",
+    "members": [
+      {
+        "key": "slässt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "släßt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "smissh",
+    "canonical": "smißh",
+    "members": [
+      {
+        "key": "smissh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "smißh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "smissr",
+    "canonical": "smißr",
+    "members": [
+      {
+        "key": "smissr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "smißr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sportfor",
+    "canonical": "sportför",
+    "members": [
+      {
+        "key": "sportfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sportför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sportgross",
+    "canonical": "sportgroß",
+    "members": [
+      {
+        "key": "sportgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "sportgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "spost",
+    "canonical": "spöst",
+    "members": [
+      {
+        "key": "spost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "spöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "spott",
+    "canonical": "spött",
+    "members": [
+      {
+        "key": "spott",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "spött",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sprossling",
+    "canonical": "sprössling",
+    "members": [
+      {
+        "key": "sprössling",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "sprößling",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ss-eisst",
+    "canonical": "ß-eisst",
+    "members": [
+      {
+        "key": "ss-eisst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ß-eisst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ss-lini",
+    "canonical": "ß-lini",
+    "members": [
+      {
+        "key": "ss-lini",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ß-lini",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ss-s-b",
+    "canonical": "ß-s-b",
+    "members": [
+      {
+        "key": "ss-s-b",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ß-s-b",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ss-sitz",
+    "canonical": "ß-sitz",
+    "members": [
+      {
+        "key": "ss-sitz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ß-sitz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ss-vor",
+    "canonical": "ß-vor",
+    "members": [
+      {
+        "key": "ss-vor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ß-vor",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssfahig",
+    "canonical": "ssfähig",
+    "members": [
+      {
+        "key": "ssfähig",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßfähig",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssfahigk",
+    "canonical": "ssfähigk",
+    "members": [
+      {
+        "key": "ssfähigk",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßfähigk",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssfolg",
+    "canonical": "ßfolg",
+    "members": [
+      {
+        "key": "ssfolg",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßfolg",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssfor",
+    "canonical": "ssför",
+    "members": [
+      {
+        "key": "ssfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ssför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssform",
+    "canonical": "ßform",
+    "members": [
+      {
+        "key": "ssform",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßform",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssforr",
+    "canonical": "ssförr",
+    "members": [
+      {
+        "key": "ssforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ssförr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssfrist",
+    "canonical": "ßfrist",
+    "members": [
+      {
+        "key": "ssfrist",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßfrist",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssfuhr",
+    "canonical": "ssführ",
+    "members": [
+      {
+        "key": "ssführ",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßführ",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssgang",
+    "canonical": "ssgäng",
+    "members": [
+      {
+        "key": "ssgäng",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßgäng",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssgross",
+    "canonical": "ssgröß",
+    "members": [
+      {
+        "key": "ssgröß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssinri",
+    "canonical": "ßinri",
+    "members": [
+      {
+        "key": "ssinri",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßinri",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssinstit",
+    "canonical": "ßinstit",
+    "members": [
+      {
+        "key": "ssinstit",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßinstit",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskoll",
+    "canonical": "ßkoll",
+    "members": [
+      {
+        "key": "sskoll",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßkoll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskontroll",
+    "canonical": "ßkontroll",
+    "members": [
+      {
+        "key": "sskontroll",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßkontroll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskonz",
+    "canonical": "ßkonz",
+    "members": [
+      {
+        "key": "sskonz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßkonz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskost",
+    "canonical": "ßkost",
+    "members": [
+      {
+        "key": "sskost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßkost",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskrit",
+    "canonical": "ßkrit",
+    "members": [
+      {
+        "key": "sskrit",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßkrit",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sskurz",
+    "canonical": "sskürz",
+    "members": [
+      {
+        "key": "sskürz",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßkürz",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssligk",
+    "canonical": "ßligk",
+    "members": [
+      {
+        "key": "ssligk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßligk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sslini",
+    "canonical": "ßlini",
+    "members": [
+      {
+        "key": "sslini",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßlini",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sslist",
+    "canonical": "ßlist",
+    "members": [
+      {
+        "key": "sslist",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßlist",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssmitgli",
+    "canonical": "ßmitgli",
+    "members": [
+      {
+        "key": "ssmitgli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßmitgli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssmitt",
+    "canonical": "ßmitt",
+    "members": [
+      {
+        "key": "ssmitt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßmitt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssmogli",
+    "canonical": "ssmögli",
+    "members": [
+      {
+        "key": "ssmögli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßmögli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssnotw",
+    "canonical": "ßnotw",
+    "members": [
+      {
+        "key": "ssnotw",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßnotw",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sspfiff",
+    "canonical": "ßpfiff",
+    "members": [
+      {
+        "key": "sspfiff",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßpfiff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sspfli",
+    "canonical": "ßpfli",
+    "members": [
+      {
+        "key": "sspfli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßpfli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sspistol",
+    "canonical": "ßpistol",
+    "members": [
+      {
+        "key": "sspistol",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßpistol",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sspolitik",
+    "canonical": "ßpolitik",
+    "members": [
+      {
+        "key": "sspolitik",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßpolitik",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssprinzip",
+    "canonical": "ßprinzip",
+    "members": [
+      {
+        "key": "ssprinzip",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßprinzip",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssprogr",
+    "canonical": "ßprogr",
+    "members": [
+      {
+        "key": "ssprogr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßprogr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssproj",
+    "canonical": "ßproj",
+    "members": [
+      {
+        "key": "ssproj",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßproj",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssprotokoll",
+    "canonical": "ßprotokoll",
+    "members": [
+      {
+        "key": "ssprotokoll",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "ßprotokoll",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssproz",
+    "canonical": "ßproz",
+    "members": [
+      {
+        "key": "ssproz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßproz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sspruf",
+    "canonical": "ssprüf",
+    "members": [
+      {
+        "key": "ssprüf",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßprüf",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssrisiko",
+    "canonical": "ßrisiko",
+    "members": [
+      {
+        "key": "ssrisiko",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßrisiko",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sssatz",
+    "canonical": "sssätz",
+    "members": [
+      {
+        "key": "sssätz",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßsätz",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "sssitz",
+    "canonical": "ßsitz",
+    "members": [
+      {
+        "key": "sssitz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßsitz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sssphar",
+    "canonical": "ßsphär",
+    "members": [
+      {
+        "key": "sssphär",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßsphär",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sssport",
+    "canonical": "ßsport",
+    "members": [
+      {
+        "key": "sssport",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßsport",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssstark",
+    "canonical": "ssstärk",
+    "members": [
+      {
+        "key": "ssstärk",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßstärk",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssstatt",
+    "canonical": "ssstätt",
+    "members": [
+      {
+        "key": "ssstätt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßstätt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "ssstimm",
+    "canonical": "ßstimm",
+    "members": [
+      {
+        "key": "ssstimm",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßstimm",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssstri",
+    "canonical": "ßstri",
+    "members": [
+      {
+        "key": "ssstri",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßstri",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sssyst",
+    "canonical": "ßsyst",
+    "members": [
+      {
+        "key": "sssyst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßsyst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sstoss",
+    "canonical": "sstoß",
+    "members": [
+      {
+        "key": "sstoß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "sstöß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "sstrom",
+    "canonical": "sström",
+    "members": [
+      {
+        "key": "sstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssvoll",
+    "canonical": "ßvoll",
+    "members": [
+      {
+        "key": "ssvoll",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßvoll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssvorl",
+    "canonical": "ßvorl",
+    "members": [
+      {
+        "key": "ssvorl",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßvorl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ssvorsitz",
+    "canonical": "ßvorsitz",
+    "members": [
+      {
+        "key": "ssvorsitz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßvorsitz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sswirt",
+    "canonical": "ßwirt",
+    "members": [
+      {
+        "key": "sswirt",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ßwirt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sswort",
+    "canonical": "sswört",
+    "members": [
+      {
+        "key": "sswort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sswört",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ßwort",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "stfor",
+    "canonical": "stför",
+    "members": [
+      {
+        "key": "stfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "stför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "sthor",
+    "canonical": "sthör",
+    "members": [
+      {
+        "key": "sthor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "sthör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stitio",
+    "canonical": "stitiö",
+    "members": [
+      {
+        "key": "stitio",
+        "count": 3,
+        "merged": true
+      },
+      {
+        "key": "stitiö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stivloh",
+    "canonical": "stivlöh",
+    "members": [
+      {
+        "key": "stivloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stivlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stkor",
+    "canonical": "stkör",
+    "members": [
+      {
+        "key": "stkor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stkör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stloh",
+    "canonical": "stlöh",
+    "members": [
+      {
+        "key": "stloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stlöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stmor",
+    "canonical": "stmör",
+    "members": [
+      {
+        "key": "stmor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stmör",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stoll",
+    "canonical": "stöll",
+    "members": [
+      {
+        "key": "stoll",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "stöll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stolp",
+    "canonical": "stölp",
+    "members": [
+      {
+        "key": "stolp",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "stölp",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stolz",
+    "canonical": "stölz",
+    "members": [
+      {
+        "key": "stolz",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "stölz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stopf",
+    "canonical": "stöpf",
+    "members": [
+      {
+        "key": "stopf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "stöpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "storf",
+    "canonical": "störf",
+    "members": [
+      {
+        "key": "storf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "störf",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "storg",
+    "canonical": "störg",
+    "members": [
+      {
+        "key": "storg",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "störg",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "storm",
+    "canonical": "störm",
+    "members": [
+      {
+        "key": "storm",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "störm",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stort",
+    "canonical": "stört",
+    "members": [
+      {
+        "key": "stort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stört",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stosst",
+    "canonical": "stoßt",
+    "members": [
+      {
+        "key": "stoßt",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "stößt",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "stot·",
+    "canonical": "stöt·",
+    "members": [
+      {
+        "key": "stot·",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "stöt·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "strol",
+    "canonical": "ströl",
+    "members": [
+      {
+        "key": "strol",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ströl",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "strom",
+    "canonical": "ström",
+    "members": [
+      {
+        "key": "strom",
+        "count": 6,
+        "merged": true
+      },
+      {
+        "key": "ström",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stromt",
+    "canonical": "strömt",
+    "members": [
+      {
+        "key": "stromt",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "strömt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "stross",
+    "canonical": "stroß",
+    "members": [
+      {
+        "key": "stroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "ströß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "strow",
+    "canonical": "ströw",
+    "members": [
+      {
+        "key": "strow",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ströw",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "t-for",
+    "canonical": "t-för",
+    "members": [
+      {
+        "key": "t-for",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "t-för",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tgross",
+    "canonical": "tgroß",
+    "members": [
+      {
+        "key": "tgroß",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "tgröß",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "tionsfor",
+    "canonical": "tionsför",
+    "members": [
+      {
+        "key": "tionsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tionsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tionslo",
+    "canonical": "tionslö",
+    "members": [
+      {
+        "key": "tionslo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tionslö",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tionsstrom",
+    "canonical": "tionsström",
+    "members": [
+      {
+        "key": "tionsstrom",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tionsström",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tivfo",
+    "canonical": "tivfö",
+    "members": [
+      {
+        "key": "tivfo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tivfö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tivfor",
+    "canonical": "tivför",
+    "members": [
+      {
+        "key": "tivfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tivför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tivlo",
+    "canonical": "tivlö",
+    "members": [
+      {
+        "key": "tivlo",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tivlö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tklassl",
+    "canonical": "tklässl",
+    "members": [
+      {
+        "key": "tklässl",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "tkläßl",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "tonklotz",
+    "canonical": "tonklötz",
+    "members": [
+      {
+        "key": "tonklotz",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tonklötz",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tonkopf",
+    "canonical": "tonköpf",
+    "members": [
+      {
+        "key": "tonkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tonköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tonrohr",
+    "canonical": "tonröhr",
+    "members": [
+      {
+        "key": "tonrohr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tonröhr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "troff",
+    "canonical": "tröff",
+    "members": [
+      {
+        "key": "troff",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tröff",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tropf",
+    "canonical": "tröpf",
+    "members": [
+      {
+        "key": "tropf",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tröpf",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "trost",
+    "canonical": "tröst",
+    "members": [
+      {
+        "key": "trost",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tröst",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tsfor",
+    "canonical": "tsför",
+    "members": [
+      {
+        "key": "tsfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tsloh",
+    "canonical": "tslöh",
+    "members": [
+      {
+        "key": "tsloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tslöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tspost",
+    "canonical": "tspöst",
+    "members": [
+      {
+        "key": "tspost",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tspöst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ttoloh",
+    "canonical": "ttolöh",
+    "members": [
+      {
+        "key": "ttoloh",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ttolöh",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ttpolst",
+    "canonical": "ttpölst",
+    "members": [
+      {
+        "key": "ttpolst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ttpölst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tzfor",
+    "canonical": "tzför",
+    "members": [
+      {
+        "key": "tzfor",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "tzför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tzforr",
+    "canonical": "tzförr",
+    "members": [
+      {
+        "key": "tzforr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tzförr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "tznot",
+    "canonical": "tznöt",
+    "members": [
+      {
+        "key": "tznot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "tznöt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "ummli",
+    "canonical": "ümmli",
+    "members": [
+      {
+        "key": "ummli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ümmli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "unmissv",
+    "canonical": "unmißv",
+    "members": [
+      {
+        "key": "unmissv",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "unmißv",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "unpassli",
+    "canonical": "unpässli",
+    "members": [
+      {
+        "key": "unpässli",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "unpäßli",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "unstig",
+    "canonical": "ünstig",
+    "members": [
+      {
+        "key": "unstig",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ünstig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "unwort",
+    "canonical": "unwört",
+    "members": [
+      {
+        "key": "unwort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "unwört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urfni",
+    "canonical": "ürfni",
+    "members": [
+      {
+        "key": "urfni",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürfni",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urftig",
+    "canonical": "ürftig",
+    "members": [
+      {
+        "key": "urftig",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürftig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urftigk",
+    "canonical": "ürftigk",
+    "members": [
+      {
+        "key": "urftigk",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürftigk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urini",
+    "canonical": "ürini",
+    "members": [
+      {
+        "key": "urini",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürini",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urltig",
+    "canonical": "ürltig",
+    "members": [
+      {
+        "key": "urltig",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürltig",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "urokr",
+    "canonical": "ürokr",
+    "members": [
+      {
+        "key": "urokr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "ürokr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "vollmo",
+    "canonical": "vollmö",
+    "members": [
+      {
+        "key": "vollmo",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "vollmö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "vorrst",
+    "canonical": "vörrst",
+    "members": [
+      {
+        "key": "vorrst",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "vörrst",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "vorstoss",
+    "canonical": "vorstoß",
+    "members": [
+      {
+        "key": "vorstoß",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "vorstöß",
+        "count": 2,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "vorzog",
+    "canonical": "vorzög",
+    "members": [
+      {
+        "key": "vorzog",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "vorzög",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wirrkopf",
+    "canonical": "wirrköpf",
+    "members": [
+      {
+        "key": "wirrkopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "wirrköpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wohnli",
+    "canonical": "wöhnli",
+    "members": [
+      {
+        "key": "wohnli",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "wöhnli",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wohnt",
+    "canonical": "wöhnt",
+    "members": [
+      {
+        "key": "wohnt",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "wöhnt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wohn·",
+    "canonical": "wöhn·",
+    "members": [
+      {
+        "key": "wohn·",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "wöhn·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wortfi",
+    "canonical": "wörtfi",
+    "members": [
+      {
+        "key": "wortfi",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "wörtfi",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "worth",
+    "canonical": "wörth",
+    "members": [
+      {
+        "key": "worth",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "wörth",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wortli",
+    "canonical": "wörtli",
+    "members": [
+      {
+        "key": "wortli",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "wörtli",
+        "count": 2,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "wort·",
+    "canonical": "wört·",
+    "members": [
+      {
+        "key": "wort·",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "wört·",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "zinsfor",
+    "canonical": "zinsför",
+    "members": [
+      {
+        "key": "zinsfor",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "zinsför",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "zollsto",
+    "canonical": "zollstö",
+    "members": [
+      {
+        "key": "zollsto",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "zollstö",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "zwolfwo",
+    "canonical": "zwölfwo",
+    "members": [
+      {
+        "key": "zwölfwo",
+        "count": 1,
+        "merged": false
+      },
+      {
+        "key": "zwölfwö",
+        "count": 1,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "„arzt",
+    "canonical": "„ärzt",
+    "members": [
+      {
+        "key": "„arzt",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "„ärzt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„boll",
+    "canonical": "„böll",
+    "members": [
+      {
+        "key": "„boll",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„böll",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„brot",
+    "canonical": "„bröt",
+    "members": [
+      {
+        "key": "„brot",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„bröt",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„dorf",
+    "canonical": "„dörf",
+    "members": [
+      {
+        "key": "„dorf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„dörf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„gross",
+    "canonical": "„groß",
+    "members": [
+      {
+        "key": "„groß",
+        "count": 2,
+        "merged": false
+      },
+      {
+        "key": "„größ",
+        "count": 2,
+        "merged": true
+      }
+    ]
+  },
+  {
+    "folded": "„hort",
+    "canonical": "„hört",
+    "members": [
+      {
+        "key": "„hort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„hört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„kopf",
+    "canonical": "„köpf",
+    "members": [
+      {
+        "key": "„kopf",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„köpf",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„mohr",
+    "canonical": "„möhr",
+    "members": [
+      {
+        "key": "„mohr",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„möhr",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„volk",
+    "canonical": "„völk",
+    "members": [
+      {
+        "key": "„volk",
+        "count": 2,
+        "merged": true
+      },
+      {
+        "key": "„völk",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  },
+  {
+    "folded": "„wort",
+    "canonical": "„wört",
+    "members": [
+      {
+        "key": "„wort",
+        "count": 1,
+        "merged": true
+      },
+      {
+        "key": "„wört",
+        "count": 1,
+        "merged": false
+      }
+    ]
+  }
+]

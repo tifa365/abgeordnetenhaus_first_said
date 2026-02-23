@@ -1,0 +1,34 @@
+name: Post Word
+
+on:
+  schedule:
+    # Every hour from 7-21 UTC (8-22 Berlin CET, 9-23 CEST)
+    - cron: '0 7-21/1 * * *'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+
+    - name: Install dependencies
+      run: uv sync
+
+    - name: Post word
+      env:
+        MASTODON_FIRST_ACCESSTOKEN: ${{ secrets.MASTODON_FIRST_ACCESSTOKEN }}
+      working-directory: parser
+      run: uv run python post_queue.py
+
+    - name: Commit DB changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add parser/plenum_first_said.db || true
+        git diff --quiet && git diff --staged --quiet || git commit -m "Post word [skip ci]"
+        git push || true

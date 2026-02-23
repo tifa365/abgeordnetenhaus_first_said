@@ -1,40 +1,36 @@
 import logging
+import random
 from database import get_meta, set_meta, get_document, get_random_queue_word, move_to_archive, delete_from_queue
 from mastodon_cred import toot_word
-import random
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
-# Organisiert das Senden von Posts
 def post_from_queue():
 
-    poststop = get_meta('poststop')
+    # Cooldown-Timer pruefen (55-120 Min zwischen Posts)
+    if get_meta('poststop') is not None:
+        return False
 
-    if poststop is None:
-        set_post_stopper()
-        logging.info('Post Skript wird gestartet')
-        entry = get_random_queue_word()
+    set_post_timer()
+    entry = get_random_queue_word()
 
-        if entry is None:
-            logging.info('Keine Woerter in der Queue.')
-            return False
+    if entry is None:
+        logging.info('Keine Woerter in der Queue.')
+        return False
 
-        word = entry['word']
-        document_id = entry['document_id']
-        logging.info("Wort '" + word + "' wird veroeffentlicht.")
+    word = entry['word']
+    document_id = entry['document_id']
+    logging.info("Wort '" + word + "' wird veroeffentlicht.")
 
-        doc_keys = get_document(document_id)
+    doc_keys = get_document(document_id)
 
-        if send_word(word, doc_keys):
-            return True
-        else:
-            logging.debug('Wort konnte nicht gesendet werden.')
-            delete_from_queue(word)
-            return False
-
+    if send_word(word, doc_keys):
+        return True
     else:
+        logging.debug('Wort konnte nicht gesendet werden.')
+        delete_from_queue(word)
         return False
 
 
@@ -61,15 +57,11 @@ def cleanup_db(word, mastodon_id):
         logging.exception(e)
         return False
 
-def set_post_stopper():
 
-    expireTime = 60*round(random.randrange(55,120))
-    set_meta('poststop', 1, ex=expireTime)
-    logging.info('Post-Stopper wurde gesetzt auf ' + str(expireTime/60) + ' Minuten.')
-
-    return True
-
-
+def set_post_timer():
+    wait = 60 * random.randint(55, 120)
+    set_meta('poststop', 1, ex=wait)
+    logging.info(f'Naechster Post in {wait // 60} Minuten.')
 
 
 if __name__ == "__main__":

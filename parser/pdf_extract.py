@@ -74,7 +74,6 @@ def process_document(document_id, pdf_url, doknr):
         conn = _get_connection()
         conn.execute("UPDATE documents SET pdf_sha256 = ? WHERE id = ?", (sha256, document_id))
         conn.commit()
-        conn.close()
 
         pages = extract_pages(filepath)
 

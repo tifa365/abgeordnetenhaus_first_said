@@ -1,0 +1,49 @@
+name: Scan New Protocols
+
+on:
+  schedule:
+    # Every Monday at 5 UTC (6 CET, 7 CEST)
+    - cron: '0 5 * * 1'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+
+    - name: Install dependencies
+      run: uv sync
+
+    - name: Scan for new protocols
+      env:
+        MASTODON_FIRST_ACCESSTOKEN: ${{ secrets.MASTODON_FIRST_ACCESSTOKEN }}
+      working-directory: parser
+      run: uv run python plenar.py
+
+    - name: Strip pages from DB before commit
+      working-directory: parser
+      run: |
+        uv run python -c "
+        import sqlite3
+        conn = sqlite3.connect('plenum_first_said.db', isolation_level=None)
+        conn.execute('DELETE FROM pages')
+        conn.execute('DROP TABLE IF EXISTS pages_fts')
+        conn.execute('DROP TRIGGER IF EXISTS pages_ai')
+        conn.execute('DROP TRIGGER IF EXISTS pages_ad')
+        conn.execute('DROP TRIGGER IF EXISTS pages_au')
+        conn.execute('VACUUM')
+        conn.close()
+        "
+
+    - name: Commit DB changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add parser/plenum_first_said.db || true
+        git diff --quiet && git diff --staged --quiet || git commit -m "Scan new protocols [skip ci]"
+        git push || true
