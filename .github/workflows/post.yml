@@ -6,6 +6,9 @@ on:
     - cron: '0 7-21/1 * * *'
   workflow_dispatch: # Allow manual runs
 
+permissions:
+  contents: write
+
 jobs:
   post:
     runs-on: ubuntu-latest
